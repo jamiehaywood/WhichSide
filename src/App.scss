@@ -1,20 +1,29 @@
-// FONT FACES //
-
 @font-face {
-  font-family: Johnston100-Light;
-  src: "./fonts/Johnston100-Light.woff";
+  font-family: "Johnston100-Light";
+    src: url('./fonts/Johnston100W03-Light.eot'); 
+    src: url('./fonts/Johnston100W03-Light.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Johnston100W03-Light.woff2') format('woff2'),
+         url('./fonts/Johnston100W03-Light.woff') format('woff'),
+         url('./fonts/Johnston100W03-Light.ttf')  format('truetype'),
+         url('./fonts/Johnston100W03-Medium.svg') format('svg');
 }
 @font-face {
-  font-family: Johnston100-Regular;
-  src: "./fonts/Johnston100-Regular.woff";
+  font-family: "Johnston100-Regular";
+    src: url('./fonts/Johnston100W03-Regular.eot'); 
+    src: url('./fonts/Johnston100W03-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Johnston100W03-Regular.woff2') format('woff2'),
+         url('./fonts/Johnston100W03-Regular.woff') format('woff'),
+         url('./fonts/Johnston100W03-Regular.ttf')  format('truetype'),
+         url('./fonts/Johnston100W03-Regular.svg') format('svg');
 }
 @font-face {
-  font-family: Johnston100-Medium;
-  src: "./fonts/Johnston100-Medium.woff";
-}
-@font-face{
-  font-family: Johnston100;
-  src: "./fonts/Johnston100-Regular.woff"
+  font-family: "Johnston100-Medium";
+    src: url('./fonts/Johnston100W03-Medium.eot'); 
+    src: url('./fonts/Johnston100W03-Medium.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Johnston100W03-Medium.woff2') format('woff2'),
+         url('./fonts/Johnston100W03-Medium.woff') format('woff'),
+         url('./fonts/Johnston100W03-Medium.ttf')  format('truetype'),
+         url('./fonts/Johnston100W03-Medium.svg') format('svg');
 }
 
 // TFL COLOURS //
