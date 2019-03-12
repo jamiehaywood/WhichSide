@@ -1,0 +1,76 @@
+// FONT FACES //
+
+@font-face {
+  font-family: Johnston100-Light;
+  src: "./fonts/Johnston100-Light.woff";
+}
+@font-face {
+  font-family: Johnston100-Regular;
+  src: "./fonts/Johnston100-Regular.woff";
+}
+@font-face {
+  font-family: Johnston100-Medium;
+  src: "./fonts/Johnston100-Medium.woff";
+}
+@font-face{
+  font-family: Johnston100;
+  src: "./fonts/Johnston100-Regular.woff"
+}
+
+// TFL COLOURS //
+$blue: rgb(0, 25, 168);
+$cyan: rgb(0,157,217);
+$turquoise: rgb(102, 204, 204);
+$lightGrey: rgb(238, 238, 238);
+$grey: rgb(134, 143, 152);
+$darkGrey: rgb(65,75,86);
+$yellow: rgb(255,206,0);
+$red: rgb(220,36,31);
+
+$header: 4.16em;
+
+$buttonHeight: 2em;
+
+:root {font-size:12px}
+
+body{
+  background-color:rgba(0, 25, 168, 0.8);
+}
+
+.title{
+  text-align: center;
+  font-family: "Johnston100";
+  color:white;
+  font-size: $header;
+}
+
+.inputBox{
+ padding-bottom: 15px;
+ text-align: center;
+ color: white;
+}
+
+.defaultTextBox {
+  padding: 0;
+  border-radius: 3px;
+  height: 40px;
+  position: relative;
+  width: 20%;
+  left: 0;
+  outline: none;
+  border: 1px solid #cdcdcd;
+  border-color: rgba(0,0,0,.15);
+  background-color: white;
+  font-size: 16px;
+}
+
+.submitButton{
+  align-items: center;
+  background-color:rgb(0 , 189, 25);
+  border-radius: 3px;
+  height: 40px;
+  width: 15%;
+  outline: none;
+  font-size: 16px;
+  color: white;
+}
