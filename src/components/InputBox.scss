@@ -1,0 +1,23 @@
+@import '../App.scss';
+
+.textBox {
+  font-family: Johnston100-Regular;
+  border-radius: 4px;
+  height: $buttonHeight;
+  width: 35%;
+  outline: none;
+  border: 1px solid #cdcdcd;
+  border-color: rgba(0, 0, 0, 0.15);
+  color: $blue;
+  background-color: white;
+  font-size: 16px;
+}
+.textBox::placeholder {
+  font-family: Johnston100-Light;
+  font-size: 15px;
+  text-align: center;
+}
+.textBoxStyling{
+    padding-bottom: 10px;
+    text-align: center;
+}
