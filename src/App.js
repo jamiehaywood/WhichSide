@@ -11,6 +11,18 @@ class App extends Component {
       leftSide: "#ffffff",
       rightSide: "#ffffff"
     }
+  changeColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    var sides = this.state
+    sides.leftSide = color;
+    sides.rightSide = "#ffffff"
+    this.setState(sides)
+  }
+
   render() {
     return (
       <div>
