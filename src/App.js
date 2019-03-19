@@ -11,6 +11,9 @@ class App extends Component {
       leftSide: "#ffffff",
       rightSide: "#ffffff"
     }
+    this.changeColor = this.changeColor.bind(this)
+  }
+
   changeColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
