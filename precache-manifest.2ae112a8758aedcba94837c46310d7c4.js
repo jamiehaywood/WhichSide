@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/WhichSide/static/js/2.e4b2b633.chunk.js"
   },
   {
-    "revision": "ef0b8e643bac5abcde656f93ab323c53",
-    "url": "/WhichSide/static/media/Johnston100W03-Light.ef0b8e64.eot"
-  },
-  {
     "revision": "b0b5e0e86f9abb4a791d69e673fffe88",
     "url": "/WhichSide/static/media/Johnston100W03-Light.b0b5e0e8.woff2"
+  },
+  {
+    "revision": "ef0b8e643bac5abcde656f93ab323c53",
+    "url": "/WhichSide/static/media/Johnston100W03-Light.ef0b8e64.eot"
   },
   {
     "revision": "adf5cbb89800ccf949a7db31013b3cbe",
