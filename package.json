@@ -2,8 +2,9 @@
   "name": "whichside",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jamiehaywood.github.io/WhichSide",
+  "homepage": "https://jamiehaywood.github.io/WhichSide",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
