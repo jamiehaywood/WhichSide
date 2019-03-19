@@ -5,6 +5,12 @@ import InputBox from './components/InputBox';
 import SubmitButton from './components/SubmitButton';
 
 class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      leftSide: "#ffffff",
+      rightSide: "#ffffff"
+    }
   render() {
     return (
       <div>
