@@ -1,5 +1,5 @@
 {
-  "main.css": "/WhichSide/static/css/main.ef46d6cd.chunk.css",
+  "main.css": "/WhichSide/static/css/main.ccc1445a.chunk.css",
   "main.js": "/WhichSide/static/js/main.fbd0290c.chunk.js",
   "main.js.map": "/WhichSide/static/js/main.fbd0290c.chunk.js.map",
   "runtime~main.js": "/WhichSide/static/js/runtime~main.7e554950.js",
@@ -7,8 +7,8 @@
   "static/js/2.e4b2b633.chunk.js": "/WhichSide/static/js/2.e4b2b633.chunk.js",
   "static/js/2.e4b2b633.chunk.js.map": "/WhichSide/static/js/2.e4b2b633.chunk.js.map",
   "index.html": "/WhichSide/index.html",
-  "precache-manifest.acd7eccef71d42265491a4f2aa6eeeef.js": "/WhichSide/precache-manifest.acd7eccef71d42265491a4f2aa6eeeef.js",
+  "precache-manifest.90d4b0d547373bf80836d62c2773f425.js": "/WhichSide/precache-manifest.90d4b0d547373bf80836d62c2773f425.js",
   "service-worker.js": "/WhichSide/service-worker.js",
-  "static/css/main.ef46d6cd.chunk.css.map": "/WhichSide/static/css/main.ef46d6cd.chunk.css.map",
+  "static/css/main.ccc1445a.chunk.css.map": "/WhichSide/static/css/main.ccc1445a.chunk.css.map",
   "static/media/App.scss": "/WhichSide/static/media/Johnston100W03-Regular.fd0a76c7.woff2"
 }

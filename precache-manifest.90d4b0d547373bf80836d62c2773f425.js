@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/WhichSide/static/media/Johnston100W03-Medium.9c9e6f5a.woff2"
   },
   {
-    "revision": "997ae1e9c678af7608b0",
-    "url": "/WhichSide/static/css/main.ef46d6cd.chunk.css"
+    "revision": "8f2fcecba50559e1f07c",
+    "url": "/WhichSide/static/css/main.ccc1445a.chunk.css"
   },
   {
     "revision": "0bb65295db472f0e1b20",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/WhichSide/static/media/Johnston100W03-Medium.f5ee8c89.eot"
   },
   {
-    "revision": "997ae1e9c678af7608b0",
+    "revision": "8f2fcecba50559e1f07c",
     "url": "/WhichSide/static/js/main.fbd0290c.chunk.js"
   },
   {
@@ -60,10 +60,6 @@ self.__precacheManifest = [
     "url": "/WhichSide/static/media/Johnston100W03-Regular.0ea5a2ce.ttf"
   },
   {
-    "revision": "4c6e937d68278d9ac76c72921cfdf8b8",
-    "url": "/WhichSide/static/media/Johnston100W03-Medium.4c6e937d.ttf"
-  },
-  {
     "revision": "18caf42645db45904fc711838d60c583",
     "url": "/WhichSide/static/media/Johnston100W03-Medium.18caf426.svg"
   },
@@ -72,7 +68,11 @@ self.__precacheManifest = [
     "url": "/WhichSide/static/media/Johnston100W03-Regular.3e4884c3.svg"
   },
   {
-    "revision": "62394052e92a0795ca66440cd01f631a",
+    "revision": "4c6e937d68278d9ac76c72921cfdf8b8",
+    "url": "/WhichSide/static/media/Johnston100W03-Medium.4c6e937d.ttf"
+  },
+  {
+    "revision": "8e3f5cbd22eb23637298832a08bbccbd",
     "url": "/WhichSide/index.html"
   }
 ];
