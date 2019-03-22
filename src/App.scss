@@ -5,7 +5,7 @@
          url('./fonts/Johnston100W03-Light.woff2') format('woff2'),
          url('./fonts/Johnston100W03-Light.woff') format('woff'),
          url('./fonts/Johnston100W03-Light.ttf')  format('truetype'),
-         url('./fonts/Johnston100W03-Medium.svg') format('svg');
+         url('./fonts/Johnston100W03-Light.svg') format('svg');
 }
 @font-face {
   font-family: "Johnston100-Regular";
@@ -48,8 +48,14 @@ body{
 
 .title{
   text-align: center;
-  font-family: "Johnston100-Regular";
-  color:white;
+  font-family: "Johnston100-Medium";
+  color:rgb(105, 232, 76);
   font-size: 9vh;
   padding: 10px 0px 10px 0px;
+}
+
+.titleThin{
+  font-family: "Johnston100-Light";
+  color:white;
+  font-size: 9vh;
 }
