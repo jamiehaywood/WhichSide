@@ -9,7 +9,9 @@ class App extends Component {
     super()
     this.state = {
       leftSide: "#ffffff",
-      rightSide: "#ffffff"
+      rightSide: "#ffffff",
+      originStation: "",
+      destinationStation: "",
     }
     this.changeColor = this.changeColor.bind(this)
   }
