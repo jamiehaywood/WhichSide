@@ -21,12 +21,14 @@ class App extends Component {
   changeColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
+    var color1 = '#';
     for (var i = 0; i < 6; i++) {
       color += letters[Math.floor(Math.random() * 16)];
+      color1 += letters[Math.floor(Math.random() * 16)]
     }
     var sides = this.state
     sides.leftSide = color;
-    sides.rightSide = "#ffffff"
+    sides.rightSide = color1;
     this.setState(sides)
   }
 
