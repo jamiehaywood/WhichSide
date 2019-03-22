@@ -28,6 +28,18 @@ class App extends Component {
     this.setState(sides)
   }
 
+  onOriginInputChange = (event) => {
+    this.setState({
+      originStation: event.target.value
+    });
+  }
+
+  onDestinationInputChange = (event) => {
+    this.setState({
+      destinationStation: event.target.value
+    });
+  }
+
   render() {
     return (
       <div>
