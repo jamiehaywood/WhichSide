@@ -5523,7 +5523,7 @@ for (var line in data.lines) {
       }
 
       console.log(stationObject)
-      // stations.push(stationObject)
+      stations.push(stationObject)
    }
 }
 
