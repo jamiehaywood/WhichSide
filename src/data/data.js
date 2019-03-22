@@ -5518,6 +5518,7 @@ for (var line in data.lines) {
             stationObject["westbound"] = "lhs"
             // console.log("written8")
          }
+         stationObject["number"] = i+1;
          var i = i+1
       }
 
