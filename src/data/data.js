@@ -5469,6 +5469,7 @@ var stations = []
 var stationNames = [];
 
 for (var line in data.lines) {
+   var i = 0;
    for (const station in data.lines[line]) {
       stationNames.push(station)
       if (data.lines[line].hasOwnProperty(station)) {
@@ -5517,6 +5518,7 @@ for (var line in data.lines) {
             stationObject["westbound"] = "lhs"
             // console.log("written8")
          }
+         var i = i+1
       }
 
       console.log(stationObject)
