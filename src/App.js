@@ -51,9 +51,12 @@ class App extends Component {
           Which Side?
         </div>
 
-        <InputBox id="stationOne" placeholder="Origin station" />
-        <InputBox id="stationTwo" placeholder="Destination station" />
+        <InputBox id="originStation" onChange={this.onOriginInputChange} value={this.state.originStation} placeholder="Origin station" />
+
+        <InputBox id="destinationStation" onChange={this.onDestinationInputChange} value={this.state.destinationStation} placeholder="Destination station" />
+
         <SubmitButton text="Check!" changeColor={this.changeColor} />
+        
         <TubeIcon leftSide={this.state.leftSide} rightSide={this.state.rightSide} />
       </div>
     );
