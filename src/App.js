@@ -47,8 +47,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="title">
-          Which Side?
+        <div className="title"><span className="titleThin">Which</span>Side?
         </div>
 
         <InputBox id="originStation" onChange={this.onOriginInputChange} value={this.state.originStation} placeholder="Origin station" />
@@ -56,7 +55,7 @@ class App extends Component {
         <InputBox id="destinationStation" onChange={this.onDestinationInputChange} value={this.state.destinationStation} placeholder="Destination station" />
 
         <SubmitButton text="Check!" changeColor={this.changeColor} />
-        
+
         <TubeIcon leftSide={this.state.leftSide} rightSide={this.state.rightSide} />
       </div>
     );
