@@ -5477,6 +5477,7 @@ for (var line in data.lines) {
          stationObject["lineName"] = line
          stationObject["stationName"] = station
          var layout = data.lines[line][station].layout;
+
          if (layout.includes("N=") && layout.includes("S=")) {
             stationObject["northbound"] = "rhs"
             stationObject["southbound"] = "lhs"
@@ -5521,7 +5522,7 @@ for (var line in data.lines) {
          stationObject["number"] = i+1;
          var i = i+1
       }
-
+      
       console.log(stationObject)
       stations.push(stationObject)
    }
