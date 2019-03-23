@@ -5522,8 +5522,6 @@ for (var line in data.lines) {
          stationObject["number"] = i + 1;
          var i = i + 1
       }
-      
-      console.log(stationObject)
       stations.push(stationObject)
    }
 }
