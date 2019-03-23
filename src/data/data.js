@@ -5467,6 +5467,9 @@ var data =
 
 var stations = []
 var stationNames = [];
+// var mainObject = {
+//    stationObjects: []
+// }
 
 for (var line in data.lines) {
    var i = 0;
@@ -5521,10 +5524,18 @@ for (var line in data.lines) {
          }
          stationObject["number"] = i + 1;
          var i = i + 1
+         // mainObject.stationObjects.push(stationObject)
       }
       stations.push(stationObject)
    }
 }
+// var json = JSON.stringify(mainObject);
+// var fs = require('fs');
+// fs.writeFileSync('./data.json', json, 'utf8');
+
+var originStation = "Harrow & Wealdstone"
+var destinationStation = "Kenton"
+var line = "Bakerloo"
 
 for (const stationName in stations) {
    if (stations.hasOwnProperty(stationName)) {
