@@ -5543,5 +5543,9 @@ for (const stationName in stations) {
    }
 }
       
-//    }
-// }
+if(number < secondNumber){
+   console.log("SouthBound")
+}
+else if(number > secondNumber){
+   console.log("northbound!")
+}
