@@ -5548,15 +5548,15 @@ for (const stationName in stations) {
          var secondNumber = element.number;
          console.log(secondNumber + " " + element.stationName)
       }
-      if (number !== undefined && secondNumber !== undefined){
+      if (number !== undefined && secondNumber !== undefined) {
          break;
       }
    }
 }
 
-if(number < secondNumber){
+if (number < secondNumber) {
    console.log("SouthBound")
 }
-else if(number > secondNumber){
+else if (number > secondNumber) {
    console.log("northbound!")
 }
