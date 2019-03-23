@@ -5526,9 +5526,22 @@ for (var line in data.lines) {
    }
 }
 
-// for (const line in data.lines) {
-//    if (data.lines.hasOwnProperty(line)) {
-//       console.log(line)
+for (const stationName in stations) {
+   if (stations.hasOwnProperty(stationName)) {
+      const element = stations[stationName];
+      if (element.stationName === "Green Park" && element.lineName === "Jubilee") {
+         var number = element.number
+         console.log(number + " " + element.stationName);
+      }
+      if (element.stationName === "North Greenwich" && element.lineName === "Jubilee") {
+         var secondNumber = element.number;
+         console.log(secondNumber + " " + element.stationName)
+      }
+      if (number !== undefined && secondNumber !== undefined){
+         break;
+      }
+   }
+}
       
 //    }
 // }
