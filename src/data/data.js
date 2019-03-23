@@ -5540,11 +5540,11 @@ var line = "Bakerloo"
 for (const stationName in stations) {
    if (stations.hasOwnProperty(stationName)) {
       const element = stations[stationName];
-      if (element.stationName === "Green Park" && element.lineName === "Jubilee") {
+      if (element.stationName === originStation && element.lineName === line) {
          var number = element.number
          console.log(number + " " + element.stationName);
       }
-      if (element.stationName === "North Greenwich" && element.lineName === "Jubilee") {
+      if (element.stationName === destinationStation && element.lineName === line) {
          var secondNumber = element.number;
          console.log(secondNumber + " " + element.stationName)
       }
