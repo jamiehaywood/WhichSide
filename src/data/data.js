@@ -5522,16 +5522,16 @@ for (var line in data.lines) {
 for (const stationName in stations) {
    if (stations.hasOwnProperty(stationName)) {
       const element = stations[stationName];
-      if (element.stationName === originStation && element.lineName === line) {
+         
+         if (element.stationName === originStation && element.lineName === inputLine) {
          var number = element.number
          console.log(number + " " + element.stationName);
       }
-      if (element.stationName === destinationStation && element.lineName === line) {
+         if (element.stationName === destinationStation && element.lineName === inputLine) {
          var secondNumber = element.number;
+            var destinationStation = element
          console.log(secondNumber + " " + element.stationName)
       }
-      if (number !== undefined && secondNumber !== undefined) {
-         break;
       }
    }
 }
