@@ -5,7 +5,7 @@ class SubmitButton extends Component {
     render() {
         return (
             <div className="buttonDiv">
-                <button type="button" onClick={this.props.changeColor} className="button">{this.props.text} </button>
+                <button type="button" onClick={this.props.check} className="button">{this.props.text} </button>
             </div>
         );
     }
