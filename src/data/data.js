@@ -5534,7 +5534,8 @@ for (const stationName in stations) {
       }
       }
    }
-}
+
+// TODO: Implement some sort of algorithm to detect nbound/southbound eastbound or westbound.
 
 if (number < secondNumber) {
       var direction = "southbound"
