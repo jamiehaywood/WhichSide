@@ -3,7 +3,7 @@ import './App.scss';
 import TubeIcon from './components/TubeIcon';
 import InputBox from './components/InputBox';
 import SubmitButton from './components/SubmitButton';
-import Roundel from './components/Roundel';
+// import Roundel from './components/Roundel';
 
 class App extends Component {
   constructor() {
