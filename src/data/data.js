@@ -5518,13 +5518,6 @@ for (var line in data.lines) {
       stations.push(stationObject)
    }
 }
-// var json = JSON.stringify(mainObject);
-// var fs = require('fs');
-// fs.writeFileSync('./data.json', json, 'utf8');
-
-var originStation = "Harrow & Wealdstone"
-var destinationStation = "Kenton"
-var line = "Bakerloo"
 
 for (const stationName in stations) {
    if (stations.hasOwnProperty(stationName)) {
