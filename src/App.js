@@ -92,7 +92,7 @@ class App extends Component {
 
         </div> */}
 
-        <SubmitButton text="Check!" changeColor={this.changeColor} />
+        <SubmitButton text="Check!" check={this.check} />
 
         <TubeIcon leftSide={this.state.leftSide} rightSide={this.state.rightSide} />
       </div>
