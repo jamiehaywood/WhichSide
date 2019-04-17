@@ -5537,8 +5537,12 @@ for (const stationName in stations) {
 }
 
 if (number < secondNumber) {
-   console.log("SouthBound")
+      var direction = "southbound"
 }
 else if (number > secondNumber) {
-   console.log("northbound!")
+      var direction = "northbound"
+}
+   var side = destinationStation[direction]
+
+   return side;
 }
