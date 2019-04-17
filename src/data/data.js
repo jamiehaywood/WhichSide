@@ -5464,12 +5464,8 @@ var data =
    }
 }
 
-
 var stations = []
 var stationNames = [];
-// var mainObject = {
-//    stationObjects: []
-// }
 
 for (var line in data.lines) {
    var i = 0;
@@ -5484,47 +5480,40 @@ for (var line in data.lines) {
          if (layout.includes("N=") && layout.includes("S=")) {
             stationObject["northbound"] = "rhs"
             stationObject["southbound"] = "lhs"
-            // console.log("written1")
          }
          else if (layout.includes("=N") && layout.includes("S=")) {
             stationObject["northbound"] = "lhs"
             stationObject["southbound"] = "lhs"
-            // console.log("written2")
          }
          else if (layout.includes("N=") && layout.includes("=S")) {
             stationObject["northbound"] = "rhs"
             stationObject["southbound"] = "rhs"
-            // console.log("written3")
          }
          else if (layout.includes("=N") && layout.includes("=S")) {
             stationObject["northbound"] = "lhs"
             stationObject["southbound"] = "rhs"
-            // console.log("written4")
          }
 
          else if (layout.includes("E=") && layout.includes("W=")) {
             stationObject["eastbound"] = "lhs"
             stationObject["westbound"] = "rhs"
-            // console.log("written5")
          }
          else if (layout.includes("=E") && layout.includes("W=")) {
             stationObject["eastbound"] = "rhs"
             stationObject["westbound"] = "rhs"
-            // console.log("written6")
          }
          else if (layout.includes("=E") && layout.includes("=W")) {
             stationObject["eastbound"] = "rhs"
             stationObject["westbound"] = "lhs"
-            // console.log("written7")
          }
          else if (layout.includes("E=") && layout.includes("=W")) {
             stationObject["eastbound"] = "lhs"
             stationObject["westbound"] = "lhs"
-            // console.log("written8")
          }
+
          stationObject["number"] = i + 1;
          var i = i + 1
-         // mainObject.stationObjects.push(stationObject)
+
       }
       stations.push(stationObject)
    }
