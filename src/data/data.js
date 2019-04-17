@@ -1,3 +1,4 @@
+export function whichSide(originStation, destinationStation, inputLine) {
 var data =
 {
    "lines": {
