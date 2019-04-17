@@ -17,6 +17,7 @@ class App extends Component {
     this.changeColor = this.changeColor.bind(this)
     this.onOriginInputChange = this.onOriginInputChange.bind(this)
     this.onDestinationInputChange = this.onDestinationInputChange.bind(this)
+    this.onLineInputChange = this.onLineInputChange.bind(this)
   }
 
   changeColor() {
