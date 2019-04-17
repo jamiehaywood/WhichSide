@@ -57,6 +57,7 @@ class App extends Component {
 
         <InputBox id="destinationStation" onChange={this.onDestinationInputChange} value={this.state.destinationStation} placeholder="Destination station" />
 
+        <InputBox id="Line" onChange={this.onLineInputChange} value={this.state.line} placeholder="Line" />
         {/* <div className="roundelGrid">
           <Roundel name="Bakerloo" lineColour="#B26300" background="#89ec72" onClick={this.onLineSelection}/>
           <Roundel name="Central" lineColour="#DC241f" background={this.state.background} onClick={this.onLineSelection}/>
