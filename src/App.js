@@ -15,26 +15,31 @@ class App extends Component {
       destinationStation: "",
       line: ""
     }
-    this.changeColor = this.changeColor.bind(this)
+    this.check = this.check.bind(this)
     this.onOriginInputChange = this.onOriginInputChange.bind(this)
     this.onDestinationInputChange = this.onDestinationInputChange.bind(this)
     this.onLineInputChange = this.onLineInputChange.bind(this)
   }
 
-  changeColor() {
-    var sides = this.state
+  check() {
     var white = "#ffffff";
     var green = "#6CE84F";
 
-    if (sides.leftSide === white) {
-      sides.leftSide = green
-      sides.rightSide = white
-    }
-    else if (sides.leftSide === green) {
-      sides.leftSide = white
-      sides.rightSide = green
-    }
+    var sides = this.state
+    var originStation = this.state.originStation
+    var destinationStation = this.state.destinationStation
+    var inputLine = this.state.line
+    var result = whichSide(originStation, destinationStation, inputLine)
+    console.log(result)
     
+    if (result === "rhs"){
+      sides.rightSide = green
+      sides.leftSide = white
+    }
+    else if (result === "lhs"){
+      sides.rightSide = white
+      sides.leftSide = green
+    }
     this.setState(sides)
   }
 
