@@ -57,6 +57,26 @@ class App extends Component {
 
         <InputBox id="destinationStation" onChange={this.onDestinationInputChange} value={this.state.destinationStation} placeholder="Destination station" />
 
+        {/* <div className="roundelGrid">
+          <Roundel name="Bakerloo" lineColour="#B26300" background="#89ec72" onClick={this.onLineSelection}/>
+          <Roundel name="Central" lineColour="#DC241f" background={this.state.background} onClick={this.onLineSelection}/>
+          <Roundel name="Circle" lineColour="#FFD329"/>
+          <Roundel name="District" lineColour="#007D32"/>
+        </div>
+        <div className="roundelGrid">
+          <Roundel name="Ham & City" lineColour="#F589A6"/>
+          <Roundel name="Jubilee" lineColour="#838D93"/>
+          <Roundel name="Metropolitan" lineColour="#9B0058"/>
+          <Roundel name="Northern" lineColour="#000000"/>
+        </div>
+        <div className="roundelGrid">
+          <Roundel name="Picadilly" lineColour="#0019A8"/>
+          <Roundel name="Victoria" lineColour="#039BE5"/>
+          <Roundel name="Wloo & City" lineColour="#76D0BD"/>
+          <Roundel name="DLR" lineColour="#00AFAD"/>
+
+        </div> */}
+
         <SubmitButton text="Check!" changeColor={this.changeColor} />
 
         <TubeIcon leftSide={this.state.leftSide} rightSide={this.state.rightSide} />
