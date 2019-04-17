@@ -12,6 +12,7 @@ class App extends Component {
       rightSide: "#ffffff",
       originStation: "",
       destinationStation: "",
+      line: ""
     }
     this.changeColor = this.changeColor.bind(this)
     this.onOriginInputChange = this.onOriginInputChange.bind(this)
