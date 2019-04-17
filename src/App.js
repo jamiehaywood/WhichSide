@@ -36,6 +36,12 @@ class App extends Component {
     this.setState(sides)
   }
 
+  onLineInputChange = (event) => {
+    this.setState({
+      line: event.target.value
+    });
+  }
+  
   onOriginInputChange = (event) => {
     this.setState({
       originStation: event.target.value
