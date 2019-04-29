@@ -5,7 +5,7 @@ import './Roundel.scss';
 class Roundel extends Component {
     render() {
         return (
-                <svg width="80px" viewBox="0 0 798 646" style={{padding:'3px', backgroundColor:this.props.background}}>
+                <svg height="55px" viewBox="0 0 798 646" style={{padding:'3px', backgroundColor:this.props.background}}>
                     <path
                         fill={this.props.lineColour} stroke="black" strokeWidth="5" opacity="1.00" d=" M 382.81 1.22 C 436.53 -1.46 490.90 9.33 539.39 32.66 C 613.22 67.71 672.33 132.17 701.54 208.43 C 707.60 224.60 712.83 241.20 715.70 258.25 C 676.33 258.22 636.96 258.20 597.58 258.26 C 584.94 221.59 562.26 188.44 532.37 163.67 C 493.66 131.04 442.60 113.79 392.05 115.70 C 357.20 116.87 322.57 126.73 292.63 144.66 C 252.33 168.71 220.34 206.50 203.66 250.40 C 202.65 253.05 201.91 255.83 200.42 258.27 C 161.08 258.19 121.75 258.22 82.41 258.25 C 82.87 254.35 83.87 250.55 84.76 246.73 C 93.89 208.77 110.30 172.64 132.49 140.54 C 163.30 95.92 205.48 59.15 254.07 35.02 C 294.04 15.05 338.17 3.39 382.81 1.22 Z" />
                     <path
