@@ -4,7 +4,7 @@ import TubeIcon from './components/TubeIcon';
 import InputBox from './components/InputBox';
 import SubmitButton from './components/SubmitButton';
 // import Roundel from './components/Roundel';
-import {whichSide} from './data/data.js'
+import {whichSide} from './logic/whichSide.js'
 
 class App extends Component {
   constructor() {
