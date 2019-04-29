@@ -1,4 +1,4 @@
-export var data =
+var data =
 {
    "lines": {
       "Bakerloo": {
@@ -5463,3 +5463,4 @@ export var data =
       }
    }
 }
+export {data}
