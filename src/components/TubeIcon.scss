@@ -2,3 +2,6 @@
     padding-top: 30px;
     text-align: center;
 }
+svg:not(:root){
+    overflow: visible;
+}
