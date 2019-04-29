@@ -1,12 +1,19 @@
-import {data} from '../data/data.js'
+import { data } from '../data/data.js'
+
 
 export function whichSide(originStation, destinationStation, inputLine) {
-    var stations = []
-    var stationNames = [];
+    let stations = stationObjectsCreator()
+    let stationsIndex = indexGenerator(originStation, destinationStation, inputLine, stations)
+    let direction = directionChecker(stationsIndex)
+    let side = sideChecker(direction, stations, destinationStation)
+    return side;
+}
+
+function stationObjectsCreator() {
+    let stations = []
     for (var line in data.lines) {
         var i = 0;
         for (const station in data.lines[line]) {
-            stationNames.push(station)
             if (data.lines[line].hasOwnProperty(station)) {
                 var stationObject = {}
                 stationObject["lineName"] = line
@@ -46,7 +53,6 @@ export function whichSide(originStation, destinationStation, inputLine) {
                     stationObject["eastbound"] = "lhs"
                     stationObject["westbound"] = "lhs"
                 }
-
                 stationObject["number"] = i + 1;
                 i++
 
@@ -54,24 +60,31 @@ export function whichSide(originStation, destinationStation, inputLine) {
             stations.push(stationObject)
         }
     }
+    return stations
+}
 
+function indexGenerator(originStation, destinationStation, inputLine, stations) {
+    let stationsIndex = []
     for (const stationName in stations) {
         if (stations.hasOwnProperty(stationName)) {
             const element = stations[stationName];
 
             if (element.stationName === originStation && element.lineName === inputLine) {
                 var number = element.number
-                console.log(number + " " + element.stationName);
             }
             if (element.stationName === destinationStation && element.lineName === inputLine) {
                 var secondNumber = element.number;
-                destinationStation = element
-                console.log(secondNumber + " " + element.stationName)
             }
         }
     }
+    stationsIndex.push(number)
+    stationsIndex.push(secondNumber)
+    return stationsIndex;
+}
 
-    // TODO: Implement some sort of algorithm to detect nbound/southbound eastbound or westbound.
+function directionChecker(stationsIndex) {
+    let number = stationsIndex[0]
+    let secondNumber = stationsIndex[1]
 
     if (number < secondNumber) {
         var direction = "southbound"
@@ -79,7 +92,17 @@ export function whichSide(originStation, destinationStation, inputLine) {
     else if (number > secondNumber) {
         direction = "northbound"
     }
-    var side = destinationStation[direction]
+    return direction
+}
 
-    return side;
+function sideChecker(direction, stations, destinationStation) {
+    for (const i in stations) {
+        if (stations.hasOwnProperty(i)) {
+            const element = stations[i];
+            if (element.stationName===destinationStation){
+                var side = element[direction]
+                return side;
+            }
+        }
+    }
 }
