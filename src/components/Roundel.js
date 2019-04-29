@@ -13,7 +13,7 @@ class Roundel extends Component {
 
                     <path fill='#0019A8' stroke="white" strokeWidth="30" opacity="1.00" d=" M 0.00 258.31 C 27.47 258.36 54.94 258.23 82.41 258.25 C 121.75 258.22 161.08 258.19 200.42 258.27 C 332.81 258.23 465.20 258.25 597.58 258.26 C 636.96 258.20 676.33 258.22 715.70 258.25 C 743.14 258.25 770.57 258.25 798.00 258.25 L 798.00 390.00 C 766.61 390.04 735.22 389.92 703.84 390.06 C 668.33 389.95 632.82 390.06 597.31 390.00 C 465.25 390.00 333.20 390.00 201.14 390.00 C 171.31 390.09 141.47 389.92 111.64 390.06 C 74.43 389.92 37.21 390.04 0.00 390.00 L 0.00 258.31 Z" />
 
-                    <text x="50%" y="51%" fill="white" dominant-baseline="middle" fontSize="95px" fontWeight="bold" text-anchor="middle">{this.props.name.toUpperCase()}</text>
+                    <text x="50%" y="52%" fill="white" dominantBaseline="middle" fontSize="95px" fontWeight="bold" textAnchor="middle">{this.props.name.toUpperCase()}</text>
                 </svg>
         );
     }
