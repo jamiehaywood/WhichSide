@@ -4,7 +4,7 @@ class TubeIcon extends Component {
     render() {
         return (
             <div className="tubeIcon">
-            <svg width="40vw" height="40vh" viewBox="0 0 1120 1314">
+            <svg width="250px" viewBox="0 0 1120 1314">
                 <path
                     fill={this.props.leftSide}
                     stroke="black" strokeWidth="10"
