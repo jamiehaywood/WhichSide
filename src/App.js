@@ -34,6 +34,7 @@ class App extends Component {
     var result = whichSide(originStation, destinationStation, inputLine)
     console.log(result)
     
+    var sides = this.state
     if (result === "rhs"){
       sides.rightSide = green
       sides.leftSide = white
@@ -76,11 +77,11 @@ class App extends Component {
         <div className="title"><span className="titleThin">Which</span>Side?
         </div>
 
-        <InputBox id="originStation" onChange={this.onOriginInputChange} value={this.state.originStation} placeholder="Origin station" />
+        <InputBox id="originStation" onKeyDown={this.onEnterPress} onChange={this.onOriginInputChange}  value={this.state.originStation} placeholder="Origin station" />
 
-        <InputBox id="destinationStation" onChange={this.onDestinationInputChange} value={this.state.destinationStation} placeholder="Destination station" />
+        <InputBox id="destinationStation" onKeyDown={this.onEnterPress} onChange={this.onDestinationInputChange}  value={this.state.destinationStation} placeholder="Destination station" />
 
-        <InputBox id="Line" onChange={this.onLineInputChange} value={this.state.line} placeholder="Line" />
+        <InputBox id="Line" onKeyDown={this.onEnterPress} onChange={this.onLineInputChange} value={this.state.line}  placeholder="Line" />
         {/* <div className="roundelGrid">
           <Roundel name="Bakerloo" lineColour="#B26300"/>
           <Roundel name="Central" lineColour="#DC241f"/>
