@@ -20,6 +20,7 @@ class App extends Component {
     this.onOriginInputChange = this.onOriginInputChange.bind(this)
     this.onDestinationInputChange = this.onDestinationInputChange.bind(this)
     this.onLineInputChange = this.onLineInputChange.bind(this)
+    this.onEnterPress = this.onEnterPress.bind(this)
   }
 
   check() {
@@ -61,6 +62,13 @@ class App extends Component {
       destinationStation: event.target.value
     });
   }
+
+  onEnterPress = (event) => {
+  if(event.key === "Enter"){
+    this.check()
+  }
+}
+  
 
   render() {
     return (
