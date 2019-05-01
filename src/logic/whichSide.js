@@ -1,15 +1,13 @@
 import { data } from '../data/data.js'
 
-
 export function whichSide(originStation, destinationStation, inputLine) {
-    let stations = stationObjectsCreator()
-    let stationsIndex = indexGenerator(originStation, destinationStation, inputLine, stations)
-    let direction = directionChecker(stationsIndex)
-    let side = sideChecker(direction, stations, destinationStation)
+    let stations = stationObjectsCreator(data)
+    let stationObjects = stationObjectRetriever(originStation, destinationStation, inputLine, stations)
+    let direction = directionChecker(stationObjects)
+    let side = sideChecker(stationObjects, direction)
     return side;
 }
-
-function stationObjectsCreator() {
+export function stationObjectsCreator(data) {
     let stations = []
     for (var line in data.lines) {
         var i = 0;
@@ -55,7 +53,6 @@ function stationObjectsCreator() {
                 }
                 stationObject["number"] = i + 1;
                 i++
-
             }
             stations.push(stationObject)
         }
@@ -63,46 +60,50 @@ function stationObjectsCreator() {
     return stations
 }
 
-function indexGenerator(originStation, destinationStation, inputLine, stations) {
-    let stationsIndex = []
+export function stationObjectRetriever(originStation, destinationStation, inputLine, stations) {
+    let stationObjects = []
     for (const stationName in stations) {
         if (stations.hasOwnProperty(stationName)) {
             const element = stations[stationName];
-
             if (element.stationName === originStation && element.lineName === inputLine) {
-                var number = element.number
+                let originStationObject = element
+                stationObjects.splice(0,0,originStationObject)
             }
             if (element.stationName === destinationStation && element.lineName === inputLine) {
-                var secondNumber = element.number;
+                let destinationStationObject = element
+                stationObjects.splice(1,0,destinationStationObject)
             }
         }
     }
-    stationsIndex.push(number)
-    stationsIndex.push(secondNumber)
-    return stationsIndex;
+    return stationObjects
 }
 
-function directionChecker(stationsIndex) {
-    let number = stationsIndex[0]
-    let secondNumber = stationsIndex[1]
-
-    if (number < secondNumber) {
-        var direction = "southbound"
+export function directionChecker(stationObjects) {
+    let originStation = stationObjects[0]
+    let destinationStation = stationObjects[1]
+    let direction;
+    if (destinationStation.hasOwnProperty('northbound' || 'southbound')) {
+        if (originStation.number > destinationStation.number){
+            direction = "northbound"
+        }
+        else{
+            direction = "southbound"
+        }
     }
-    else if (number > secondNumber) {
-        direction = "northbound"
+    else if (destinationStation.hasOwnProperty('eastbound' || 'westbound')) {
+        if (originStation.number > destinationStation.number){
+            direction = "westbound"
+        }
+        else{
+            direction = "eastbound"
+        }
     }
     return direction
 }
 
-function sideChecker(direction, stations, destinationStation) {
-    for (const i in stations) {
-        if (stations.hasOwnProperty(i)) {
-            const element = stations[i];
-            if (element.stationName===destinationStation){
-                var side = element[direction]
-                return side;
-            }
-        }
-    }
+export function sideChecker(stationObjects, direction) {
+    let destination = stationObjects[1]
+    let side = destination[direction]
+return side
 }
+
