@@ -6,7 +6,7 @@ class InputBox extends Component {
     render() {
         return (
             <div className="textBoxStyling">
-                <input className="textBox" key={this.props.id} onChange={this.props.onChange} value={this.props.value} placeholder={this.props.placeholder}></input>
+                <input className="textBox" {...this.props}></input>
             </div>
         );
     }
