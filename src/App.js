@@ -27,12 +27,10 @@ class App extends Component {
     var white = "#ffffff";
     var green = "#6CE84F";
 
-    var sides = this.state
     var originStation = this.state.originStation
     var destinationStation = this.state.destinationStation
     var inputLine = this.state.line
     var result = whichSide(originStation, destinationStation, inputLine)
-    console.log(result)
     
     var sides = this.state
     if (result === "rhs"){
