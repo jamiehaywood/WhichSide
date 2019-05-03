@@ -6,7 +6,7 @@ export function validate(thisState) {
     let destinationStation = thisState.destinationStation
     let inputLine = thisState.line
 
-    originStation && destinationStation && inputLine ? stationNameCheck() : false
+    (originStation) && (destinationStation) && (inputLine) ? stationNameCheck() : false
 
     function stationNameCheck() {
         for (const stationName in data) {
