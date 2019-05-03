@@ -4,7 +4,8 @@ import TubeIcon from './components/TubeIcon';
 import InputBox from './components/InputBox';
 import SubmitButton from './components/SubmitButton';
 // import Roundel from './components/Roundel';
-import {whichSide} from './logic/whichSide.js'
+import { whichSide } from './logic/whichSide.js'
+import { validate } from './logic/validation'
 
 class App extends Component {
   constructor() {
@@ -16,20 +17,22 @@ class App extends Component {
       destinationStation: "",
       line: ""
     }
+    this.validate = this.validate.bind(this)
     this.check = this.check.bind(this)
     this.onOriginInputChange = this.onOriginInputChange.bind(this)
     this.onDestinationInputChange = this.onDestinationInputChange.bind(this)
     this.onLineInputChange = this.onLineInputChange.bind(this)
     this.onEnterPress = this.onEnterPress.bind(this)
   }
-
-  check() {
+  
+  validate(){}
+  
+  check(){
+    let originStation = this.state.originStation
+    let destinationStation = this.state.destinationStation
+    let inputLine = this.state.line
     var white = "#ffffff";
     var green = "#6CE84F";
-
-    var originStation = this.state.originStation
-    var destinationStation = this.state.destinationStation
-    var inputLine = this.state.line
     var result = whichSide(originStation, destinationStation, inputLine)
     
     var sides = this.state
@@ -100,7 +103,7 @@ class App extends Component {
 
         </div> */}
 
-        <SubmitButton text="Check!" check={this.check} />
+        <SubmitButton text="Check!" validate={this.validate} />
 
         <TubeIcon leftSide={this.state.leftSide} rightSide={this.state.rightSide} />
       </div>
