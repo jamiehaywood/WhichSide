@@ -17,7 +17,7 @@ class App extends Component {
       destinationStation: "",
       line: ""
     }
-    this.validate = this.validate.bind(this)
+    this.validation = this.validation.bind(this)
     this.check = this.check.bind(this)
     this.onOriginInputChange = this.onOriginInputChange.bind(this)
     this.onDestinationInputChange = this.onDestinationInputChange.bind(this)
@@ -25,7 +25,13 @@ class App extends Component {
     this.onEnterPress = this.onEnterPress.bind(this)
   }
   
-  validate(){}
+  validation(){
+    let originStation = this.state.originStation
+    let destinationStation = this.state.destinationStation
+    let inputLine = this.state.line
+    validate(originStation, destinationStation, inputLine, this.state)
+  
+  }
   
   check(){
     let originStation = this.state.originStation
@@ -67,7 +73,7 @@ class App extends Component {
 
   onEnterPress = (event) => {
   if(event.key === "Enter"){
-    this.check()
+    this.validation()
   }
 }
   
@@ -103,8 +109,7 @@ class App extends Component {
 
         </div> */}
 
-        <SubmitButton text="Check!" validate={this.validate} />
-
+        <SubmitButton text="Check!" validate={this.validation} />
         <TubeIcon leftSide={this.state.leftSide} rightSide={this.state.rightSide} />
       </div>
     );
