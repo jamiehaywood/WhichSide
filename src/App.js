@@ -24,30 +24,31 @@ class App extends Component {
     this.onLineInputChange = this.onLineInputChange.bind(this)
     this.onEnterPress = this.onEnterPress.bind(this)
   }
-  
-  validation(){
+
+  validation() {
     let originStation = this.state.originStation
     let destinationStation = this.state.destinationStation
     let inputLine = this.state.line
-    if(validate(originStation, destinationStation, inputLine)){
+    
+    if (validate(originStation, destinationStation, inputLine)) {
       this.check()
     }
   }
-  
-  check(){
+
+  check() {
     let originStation = this.state.originStation
     let destinationStation = this.state.destinationStation
     let inputLine = this.state.line
     var white = "#ffffff";
     var green = "#6CE84F";
     var result = whichSide(originStation, destinationStation, inputLine)
-    
+
     var sides = this.state
-    if (result === "rhs"){
+    if (result === "rhs") {
       sides.rightSide = green
       sides.leftSide = white
     }
-    else if (result === "lhs"){
+    else if (result === "lhs") {
       sides.rightSide = white
       sides.leftSide = green
     }
@@ -59,7 +60,7 @@ class App extends Component {
       line: event.target.value
     });
   }
-  
+
   onOriginInputChange = (event) => {
     this.setState({
       originStation: event.target.value
@@ -73,11 +74,11 @@ class App extends Component {
   }
 
   onEnterPress = (event) => {
-  if(event.key === "Enter"){
-    this.validation()
+    if (event.key === "Enter") {
+      this.validation()
+    }
   }
-}
-  
+
 
   render() {
     return (
@@ -85,11 +86,11 @@ class App extends Component {
         <div className="title"><span className="titleThin">Which</span>Side?
         </div>
 
-        <InputBox id="originStation" onKeyDown={this.onEnterPress} onChange={this.onOriginInputChange}  value={this.state.originStation} placeholder="Origin station" />
+        <InputBox id="originStation" onKeyDown={this.onEnterPress} onChange={this.onOriginInputChange} value={this.state.originStation} placeholder="Origin station" />
 
-        <InputBox id="destinationStation" onKeyDown={this.onEnterPress} onChange={this.onDestinationInputChange}  value={this.state.destinationStation} placeholder="Destination station" />
+        <InputBox id="destinationStation" onKeyDown={this.onEnterPress} onChange={this.onDestinationInputChange} value={this.state.destinationStation} placeholder="Destination station" />
 
-        <InputBox id="Line" onKeyDown={this.onEnterPress} onChange={this.onLineInputChange} value={this.state.line}  placeholder="Line" />
+        <InputBox id="Line" onKeyDown={this.onEnterPress} onChange={this.onLineInputChange} value={this.state.line} placeholder="Line" />
         {/* <div className="roundelGrid">
           <Roundel name="Bakerloo" lineColour="#B26300"/>
           <Roundel name="Central" lineColour="#DC241f"/>
