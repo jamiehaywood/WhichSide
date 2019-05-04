@@ -12,15 +12,17 @@ export function validate(originStation, destinationStation, inputLine) {
     }
 
     function stationNameCheck(data) {
-        for (const index in data) {
-            let i;
-            debugger
-            if (data.hasOwnProperty(index)) {
-                var stationObject = data[index];
+        let stationNames = data.map(a => a.stationName)
+        let lineNames = data.map(b => b.lineName)
+
+        if (stationNames.includes(originStation) &&
+            stationNames.includes(destinationStation) &&
+            lineNames.includes(inputLine)) {
+            return true
             }
-            stationObject.values === originStation || destinationStation || inputLine {
-                i
-            }
+        else {
+            alert("Please check your station and line names")
+            return false
         }
     }
 }
