@@ -30,9 +30,10 @@ class App extends Component {
     let destinationStation = this.state.destinationStation
     let inputLine = this.state.line
     
-    if (validate(originStation, destinationStation, inputLine))
+    if (validate(originStation, destinationStation, inputLine)) {
       this.check()
     }
+  }
 
   check() {
     let originStation = this.state.originStation
