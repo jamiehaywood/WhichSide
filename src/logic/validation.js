@@ -1,12 +1,14 @@
 import { whichSide } from './whichSide'
 import { data } from '../data/data'
 
-export function validate(thisState) {
-    let originStation = thisState.originStation
-    let destinationStation = thisState.destinationStation
-    let inputLine = thisState.line
+export function validate(originStation, destinationStation, inputLine) {
 
-    (originStation) && (destinationStation) && (inputLine) ? stationNameCheck() : false
+    if (originStation && destinationStation && inputLine) {
+        stationNameCheck()
+    }
+    else {
+        alert("Please fill in all the fields")
+    }
 
     function stationNameCheck() {
         for (const stationName in data) {
