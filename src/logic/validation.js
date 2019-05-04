@@ -1,29 +1,26 @@
-import { whichSide } from './whichSide'
 import { data } from '../data/data'
 
 export function validate(originStation, destinationStation, inputLine) {
 
+    // Checking if input is not null or empty using truthy
     if (originStation && destinationStation && inputLine) {
-        stationNameCheck()
+        stationNameCheck(data)
     }
     else {
         alert("Please fill in all the fields")
+        return false;
     }
 
-    function stationNameCheck() {
-        for (const stationName in data) {
-            if (data.hasOwnProperty(stationName)) {
-                const element = data[stationName];
-                if (element.stationName === originStation && element.lineName === inputLine) {
-                    this.check()
-                }
-                else if (element.stationName === destinationStation && element.lineName === inputLine) {
-                    this.check()
-                }
+    function stationNameCheck(data) {
+        for (const index in data) {
+            let i;
+            debugger
+            if (data.hasOwnProperty(index)) {
+                var stationObject = data[index];
             }
-            break;
+            stationObject.values === originStation || destinationStation || inputLine {
+                i
+            }
         }
-        return
     }
-    // Validating that the inputs are an actual station
 }
