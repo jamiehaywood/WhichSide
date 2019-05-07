@@ -1,2991 +1,2991 @@
 var data =
-[
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Harrow & Wealdstone",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 1
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Kenton",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 2
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "South Kenton",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 3
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "North Wembley",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 4
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Wembley Central",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 5
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Stonebridge Park",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 6
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Harlesden",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 7
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Willesden Junction",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 8
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Kensal Green",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 9
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Queen's Park",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 10
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Kilburn Park",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 11
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Maida Vale",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 12
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Warwick Avenue",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 13
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Paddington",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 14
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Edgware Road",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 15
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Marylebone",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 16
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Baker Street",
-       "northbound": "rhs",
-       "southbound": "lhs",
-       "number": 17
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Regent's Park",
-       "northbound": "lhs",
-       "southbound": "rhs",
-       "number": 18
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Oxford Circus",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 19
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Piccadilly Circus",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 20
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Charing Cross",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 21
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Embankment",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 22
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Waterloo",
-       "northbound": "rhs",
-       "southbound": "lhs",
-       "number": 23
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Lambeth North",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 24
-   },
-   {
-       "lineName": "Bakerloo",
-       "stationName": "Elephant & Castle",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 25
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Ealing Broadway",
-       "number": 1
-   },
-   {
-       "lineName": "Central",
-       "stationName": "West Acton",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 2
-   },
-   {
-       "lineName": "Central",
-       "stationName": "West Ruislip",
-       "number": 3
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Ruislip Gardens",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 4
-   },
-   {
-       "lineName": "Central",
-       "stationName": "South Ruislip",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 5
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Northolt",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 6
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Greenford",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 7
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Perivale",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 8
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Hanger Lane",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 9
-   },
-   {
-       "lineName": "Central",
-       "stationName": "North Acton",
-       "eastbound": "rhs",
-       "westbound": "lhs",
-       "number": 10
-   },
-   {
-       "lineName": "Central",
-       "stationName": "East Acton",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 11
-   },
-   {
-       "lineName": "Central",
-       "stationName": "White City",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 12
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Shepherd's Bush",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 13
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Holland Park",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 14
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Notting Hill Gate",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 15
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Queensway",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 16
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Lancaster Gate",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 17
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Marble Arch",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 18
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Bond Street",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 19
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Oxford Circus",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 20
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Tottenham Court Road",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 21
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Holborn",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 22
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Chancery Lane",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 23
-   },
-   {
-       "lineName": "Central",
-       "stationName": "St. Paul's",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 24
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Bank",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 25
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Liverpool Street",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 26
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Bethnal Green",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 27
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Mile End",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 28
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Stratford",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 29
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Leyton",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 30
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Leytonstone",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 31
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Snaresbrook",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 32
-   },
-   {
-       "lineName": "Central",
-       "stationName": "South Woodford",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 33
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Woodford",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 34
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Buckhurst Hill",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 35
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Loughton",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 36
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Debden",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 37
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Theydon Bois",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 38
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Epping",
-       "number": 39
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Wanstead",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 40
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Redbridge",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 41
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Gants Hill",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 42
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Newbury Park",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 43
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Barkingside",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 44
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Fairlop",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 45
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Hainault",
-       "northbound": "lhs",
-       "southbound": "rhs",
-       "number": 46
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Grange Hill",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 47
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Chigwell",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 48
-   },
-   {
-       "lineName": "Central",
-       "stationName": "Roding Valley",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 49
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Edgware Road",
-       "number": 1
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Paddington",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 2
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Bayswater",
-       "number": 3
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Notting Hill Gate",
-       "number": 4
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "High Street Kensington",
-       "number": 5
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Gloucester Road",
-       "number": 6
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "South Kensington",
-       "number": 7
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Sloane Square",
-       "number": 8
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Victoria",
-       "number": 9
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "St. James's Park",
-       "number": 10
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Westminster",
-       "number": 11
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Embankment",
-       "number": 12
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Temple",
-       "number": 13
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Blackfriars",
-       "number": 14
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Mansion House",
-       "number": 15
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Cannon Street",
-       "number": 16
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Monument",
-       "number": 17
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Tower Hill",
-       "number": 18
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Aldgate",
-       "number": 19
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Liverpool Street",
-       "number": 20
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Moorgate",
-       "number": 21
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Barbican",
-       "number": 22
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Farringdon",
-       "number": 23
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "King's Cross St. Pancras",
-       "number": 24
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Euston Square",
-       "number": 25
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Great Portland Street",
-       "number": 26
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Baker Street",
-       "number": 27
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Royal Oak",
-       "number": 28
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Westbourne Park",
-       "number": 29
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Ladbroke Grove",
-       "number": 30
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Latimer Road",
-       "number": 31
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Wood Lane",
-       "number": 32
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Shepherd's Bush Market",
-       "number": 33
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Goldhawk Road",
-       "number": 34
-   },
-   {
-       "lineName": "Circle",
-       "stationName": "Hammersmith",
-       "number": 35
-   },
-   {
-       "lineName": "District",
-       "stationName": "Ealing Broadway",
-       "number": 1
-   },
-   {
-       "lineName": "District",
-       "stationName": "Ealing Common",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 2
-   },
-   {
-       "lineName": "District",
-       "stationName": "Acton Town",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 3
-   },
-   {
-       "lineName": "District",
-       "stationName": "Chiswick Park",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 4
-   },
-   {
-       "lineName": "District",
-       "stationName": "Turnham Green",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 5
-   },
-   {
-       "lineName": "District",
-       "stationName": "Stamford Brook",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 6
-   },
-   {
-       "lineName": "District",
-       "stationName": "Ravenscourt Park",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 7
-   },
-   {
-       "lineName": "District",
-       "stationName": "Hammersmith",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 8
-   },
-   {
-       "lineName": "District",
-       "stationName": "Barons Court",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 9
-   },
-   {
-       "lineName": "District",
-       "stationName": "West Kensington",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 10
-   },
-   {
-       "lineName": "District",
-       "stationName": "Earl's Court",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 11
-   },
-   {
-       "lineName": "District",
-       "stationName": "Gloucester Road",
-       "eastbound": "rhs",
-       "westbound": "lhs",
-       "number": 12
-   },
-   {
-       "lineName": "District",
-       "stationName": "South Kensington",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 13
-   },
-   {
-       "lineName": "District",
-       "stationName": "Sloane Square",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 14
-   },
-   {
-       "lineName": "District",
-       "stationName": "Victoria",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 15
-   },
-   {
-       "lineName": "District",
-       "stationName": "St. James's Park",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 16
-   },
-   {
-       "lineName": "District",
-       "stationName": "Westminster",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 17
-   },
-   {
-       "lineName": "District",
-       "stationName": "Embankment",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 18
-   },
-   {
-       "lineName": "District",
-       "stationName": "Temple",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 19
-   },
-   {
-       "lineName": "District",
-       "stationName": "Blackfriars",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 20
-   },
-   {
-       "lineName": "District",
-       "stationName": "Mansion House",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 21
-   },
-   {
-       "lineName": "District",
-       "stationName": "Cannon Street",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 22
-   },
-   {
-       "lineName": "District",
-       "stationName": "Monument",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 23
-   },
-   {
-       "lineName": "District",
-       "stationName": "Tower Hill",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 24
-   },
-   {
-       "lineName": "District",
-       "stationName": "Aldgate East",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 25
-   },
-   {
-       "lineName": "District",
-       "stationName": "Whitechapel",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 26
-   },
-   {
-       "lineName": "District",
-       "stationName": "Stepney Green",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 27
-   },
-   {
-       "lineName": "District",
-       "stationName": "Mile End",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 28
-   },
-   {
-       "lineName": "District",
-       "stationName": "Bow Road",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 29
-   },
-   {
-       "lineName": "District",
-       "stationName": "Bromley-by-Bow",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 30
-   },
-   {
-       "lineName": "District",
-       "stationName": "West Ham",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 31
-   },
-   {
-       "lineName": "District",
-       "stationName": "Plaistow",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 32
-   },
-   {
-       "lineName": "District",
-       "stationName": "Upton Park",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 33
-   },
-   {
-       "lineName": "District",
-       "stationName": "East Ham",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 34
-   },
-   {
-       "lineName": "District",
-       "stationName": "Barking",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 35
-   },
-   {
-       "lineName": "District",
-       "stationName": "Upney",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 36
-   },
-   {
-       "lineName": "District",
-       "stationName": "Becontree",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 37
-   },
-   {
-       "lineName": "District",
-       "stationName": "Dagenham Heathway",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 38
-   },
-   {
-       "lineName": "District",
-       "stationName": "Dagenham East",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 39
-   },
-   {
-       "lineName": "District",
-       "stationName": "Elm Park",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 40
-   },
-   {
-       "lineName": "District",
-       "stationName": "Hornchurch",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 41
-   },
-   {
-       "lineName": "District",
-       "stationName": "Upminster Bridge",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 42
-   },
-   {
-       "lineName": "District",
-       "stationName": "Upminster",
-       "eastbound": "rhs",
-       "westbound": "lhs",
-       "number": 43
-   },
-   {
-       "lineName": "District",
-       "stationName": "Kensington (Olympia)",
-       "number": 44
-   },
-   {
-       "lineName": "District",
-       "stationName": "Richmond",
-       "number": 45
-   },
-   {
-       "lineName": "District",
-       "stationName": "Kew Gardens",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 46
-   },
-   {
-       "lineName": "District",
-       "stationName": "Gunnersbury",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 47
-   },
-   {
-       "lineName": "District",
-       "stationName": "Wimbledon",
-       "number": 48
-   },
-   {
-       "lineName": "District",
-       "stationName": "Wimbledon Park",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 49
-   },
-   {
-       "lineName": "District",
-       "stationName": "Southfields",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 50
-   },
-   {
-       "lineName": "District",
-       "stationName": "East Putney",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 51
-   },
-   {
-       "lineName": "District",
-       "stationName": "Putney Bridge",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 52
-   },
-   {
-       "lineName": "District",
-       "stationName": "Parsons Green",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 53
-   },
-   {
-       "lineName": "District",
-       "stationName": "Fulham Broadway",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 54
-   },
-   {
-       "lineName": "District",
-       "stationName": "West Brompton",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 55
-   },
-   {
-       "lineName": "District",
-       "stationName": "High Street Kensington",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 56
-   },
-   {
-       "lineName": "District",
-       "stationName": "Notting Hill Gate",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 57
-   },
-   {
-       "lineName": "District",
-       "stationName": "Bayswater",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 58
-   },
-   {
-       "lineName": "District",
-       "stationName": "Paddington",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 59
-   },
-   {
-       "lineName": "District",
-       "stationName": "Edgware Road",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 60
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Tower Gateway",
-       "number": 1
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Shadwell",
-       "number": 2
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Limehouse DLR",
-       "number": 3
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Westferry",
-       "number": 4
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Poplar DLR",
-       "number": 5
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Blackwall DLR",
-       "number": 6
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "East India",
-       "number": 7
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Canning Town",
-       "number": 8
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "West Silvertown",
-       "number": 9
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Pontoon Dock",
-       "number": 10
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "City Airport",
-       "number": 11
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "King George V",
-       "number": 12
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Woolwich Arsenal",
-       "number": 13
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Stratford International",
-       "number": 14
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Stratford",
-       "number": 15
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Stratford High Street",
-       "number": 16
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Abbey Road",
-       "number": 17
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "West Ham",
-       "number": 18
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Star Lane",
-       "number": 19
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Royal Victoria",
-       "number": 20
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Custom House",
-       "number": 21
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Prince Regent",
-       "number": 22
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Royal Albert",
-       "number": 23
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Beckton Park",
-       "number": 24
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Cyprus",
-       "number": 25
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Gallions Reach",
-       "number": 26
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Beckton DLR",
-       "number": 27
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Bank",
-       "number": 28
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "West India Quay",
-       "number": 29
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Canary Wharf",
-       "number": 30
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Heron Quays",
-       "number": 31
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "South Quay",
-       "number": 32
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Crossharbour",
-       "number": 33
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Mudchute",
-       "number": 34
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Island Gardens",
-       "number": 35
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Cutty Sark",
-       "number": 36
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Greenwich",
-       "number": 37
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Deptford Bridge",
-       "number": 38
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Elverson Road",
-       "number": 39
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Lewisham",
-       "number": 40
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "All Saints",
-       "number": 41
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Langdon Park",
-       "number": 42
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Devons Road",
-       "number": 43
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Bow Church",
-       "number": 44
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Pudding Mill Lane",
-       "number": 45
-   },
-   {
-       "lineName": "DLR",
-       "stationName": "Beckton GER",
-       "number": 46
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Highbury & Islington",
-       "number": 1
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Canonbury",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 2
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Dalston Junction",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 3
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Haggerston",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 4
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Hoxton",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 5
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Shoreditch High Street",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 6
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Whitechapel",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 7
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Shadwell",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 8
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Wapping",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 9
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Rotherhithe",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 10
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Canada Water",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 11
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Surrey Quays",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 12
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "New Cross Gate",
-       "northbound": "lhs",
-       "southbound": "rhs",
-       "number": 13
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Brockley",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 14
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Honor Oak Park",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 15
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Forest Hill",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 16
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Sydenham",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 17
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Penge West",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 18
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Anerley",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 19
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Norwood Junction",
-       "northbound": "rhs",
-       "southbound": "lhs",
-       "number": 20
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "West Croydon",
-       "number": 21
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "New Cross",
-       "number": 22
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Crystal Palace",
-       "number": 23
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Queens Road Peckham",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 24
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Peckham Rye",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 25
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Denmark Hill",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 26
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Clapham High Street",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 27
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Wandsworth Road",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 28
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Clapham Junction",
-       "number": 29
-   },
-   {
-       "lineName": "Overground",
-       "stationName": "Battersea Park",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 30
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Hammersmith",
-       "number": 1
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Goldhawk Road",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 2
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Shepherd's Bush Market",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 3
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Wood Lane",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 4
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Latimer Road",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 5
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Ladbroke Grove",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 6
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Westbourne Park",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 7
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Royal Oak",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 8
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Paddington",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 9
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Edgware Road",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 10
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Baker Street",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 11
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Great Portland Street",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 12
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Euston Square",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 13
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "King's Cross St. Pancras",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 14
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Farringdon",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 15
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Barbican",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 16
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Moorgate",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 17
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Liverpool Street",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 18
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Aldgate East",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 19
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Whitechapel",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 20
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Stepney Green",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 21
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Mile End",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 22
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Bow Road",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 23
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Bromley-by-Bow",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 24
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "West Ham",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 25
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Plaistow",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 26
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Upton Park",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 27
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "East Ham",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 28
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Barking",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 29
-   },
-   {
-       "lineName": "HammersmithAndCity",
-       "stationName": "Shepherd's Bush",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 30
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Stanmore",
-       "number": 1
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Canons Park",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 2
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Queensbury",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 3
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Kingsbury",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 4
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Wembley Park",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 5
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Neasden",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 6
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Dollis Hill",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 7
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Willesden Green",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 8
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Kilburn",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 9
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "West Hampstead",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 10
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Finchley Road",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 11
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Swiss Cottage",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 12
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "St. John's Wood",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 13
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Baker Street",
-       "northbound": "lhs",
-       "southbound": "rhs",
-       "number": 14
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Bond Street",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 15
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Green Park",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 16
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Westminster",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 17
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Waterloo",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 18
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Southwark",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 19
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "London Bridge",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 20
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Bermondsey",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 21
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Canada Water",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 22
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Canary Wharf",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 23
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "North Greenwich",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 24
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Canning Town",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 25
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "West Ham",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 26
-   },
-   {
-       "lineName": "Jubilee",
-       "stationName": "Stratford",
-       "number": 27
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Amersham",
-       "northbound": "rhs",
-       "southbound": "lhs",
-       "number": 1
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Chalfont & Latimer",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 2
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Chorleywood",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 3
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Rickmansworth",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 4
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Moor Park",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 5
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Northwood",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 6
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Northwood Hills",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 7
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Pinner",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 8
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "North Harrow",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 9
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Harrow-on-the-Hill",
-       "northbound": "rhs",
-       "southbound": "lhs",
-       "number": 10
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Northwick Park",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 11
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Preston Road",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 12
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Wembley Park",
-       "northbound": "rhs",
-       "southbound": "lhs",
-       "number": 13
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Finchley Road",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 14
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Baker Street",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 15
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Great Portland Street",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 16
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Euston Square",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 17
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "King's Cross St. Pancras",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 18
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Farringdon",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 19
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Barbican",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 20
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Moorgate",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 21
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Liverpool Street",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 22
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Aldgate",
-       "number": 23
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Uxbridge",
-       "number": 24
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Hillingdon",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 25
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Ickenham",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 26
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Ruislip",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 27
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Ruislip Manor",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 28
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Eastcote",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 29
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Rayners Lane",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 30
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "West Harrow",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 31
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Watford",
-       "number": 32
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Croxley",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 33
-   },
-   {
-       "lineName": "Metropolitan",
-       "stationName": "Chesham",
-       "number": 34
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Edgware",
-       "number": 1
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Burnt Oak",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 2
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Colindale",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 3
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Hendon Central",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 4
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Brent Cross",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 5
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Golders Green",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 6
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Hampstead",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 7
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Belsize Park",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 8
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Chalk Farm",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 9
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Camden Town",
-       "northbound": "rhs",
-       "southbound": "lhs",
-       "number": 10
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Mornington Crescent",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 11
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Euston",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 12
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Warren Street",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 13
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Goodge Street",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 14
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Tottenham Court Road",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 15
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Leicester Square",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 16
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Charing Cross",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 17
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Embankment",
-       "northbound": "lhs",
-       "southbound": "rhs",
-       "number": 18
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Waterloo",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 19
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Kennington",
-       "northbound": "rhs",
-       "southbound": "lhs",
-       "number": 20
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Oval",
-       "northbound": "lhs",
-       "southbound": "rhs",
-       "number": 21
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Stockwell",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 22
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Clapham North",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 23
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Clapham Common",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 24
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Clapham South",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 25
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Balham",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 26
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Tooting Bec",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 27
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Tooting Broadway",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 28
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Colliers Wood",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 29
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "South Wimbledon",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 30
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Morden",
-       "northbound": "rhs",
-       "southbound": "lhs",
-       "number": 31
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "High Barnet",
-       "number": 32
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Totteridge & Whetstone",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 33
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Woodside Park",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 34
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "West Finchley",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 35
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Finchley Central",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 36
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "East Finchley",
-       "northbound": "rhs",
-       "southbound": "lhs",
-       "number": 37
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Highgate",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 38
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Archway",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 39
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Tufnell Park",
-       "northbound": "lhs",
-       "southbound": "rhs",
-       "number": 40
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Kentish Town",
-       "northbound": "rhs",
-       "southbound": "lhs",
-       "number": 41
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "King's Cross St. Pancras",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 42
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Angel",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 43
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Old Street",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 44
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Moorgate",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 45
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Bank",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 46
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "London Bridge",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 47
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Borough",
-       "northbound": "lhs",
-       "southbound": "rhs",
-       "number": 48
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Elephant & Castle",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 49
-   },
-   {
-       "lineName": "Northern",
-       "stationName": "Mill Hill East",
-       "number": 50
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Heathrow Terminal 5",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 1
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Heathrow Terminals 1, 2, 3",
-       "number": 2
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Hatton Cross",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 3
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Hounslow West",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 4
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Hounslow Central",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 5
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Hounslow East",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 6
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Osterley",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 7
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Boston Manor",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 8
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Northfields",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 9
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "South Ealing",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 10
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Acton Town",
-       "eastbound": "lhs",
-       "westbound": "rhs",
-       "number": 11
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Turnham Green",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 12
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Hammersmith",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 13
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Barons Court",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 14
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Earl's Court",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 15
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Gloucester Road",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 16
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "South Kensington",
-       "eastbound": "rhs",
-       "westbound": "lhs",
-       "number": 17
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Knightsbridge",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 18
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Hyde Park Corner",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 19
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Green Park",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 20
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Piccadilly Circus",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 21
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Leicester Square",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 22
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Covent Garden",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 23
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Holborn",
-       "eastbound": "rhs",
-       "westbound": "lhs",
-       "number": 24
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Russell Square",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 25
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "King's Cross St. Pancras",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 26
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Caledonian Road",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 27
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Holloway Road",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 28
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Arsenal",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 29
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Finsbury Park",
-       "eastbound": "rhs",
-       "westbound": "lhs",
-       "number": 30
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Manor House",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 31
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Turnpike Lane",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 32
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Wood Green",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 33
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Bounds Green",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 34
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Arnos Grove",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 35
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Southgate",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 36
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Oakwood",
-       "eastbound": "rhs",
-       "westbound": "rhs",
-       "number": 37
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Cockfosters",
-       "number": 38
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Heathrow Terminal 4",
-       "number": 39
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Uxbridge",
-       "number": 40
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Hillingdon",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 41
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Ickenham",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 42
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Ruislip",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 43
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Ruislip Manor",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 44
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Eastcote",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 45
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Rayners Lane",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 46
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "South Harrow",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 47
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Sudbury Hill",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 48
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Sudbury Town",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 49
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Alperton",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 50
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Park Royal",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 51
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "North Ealing",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 52
-   },
-   {
-       "lineName": "Piccadilly",
-       "stationName": "Ealing Common",
-       "eastbound": "lhs",
-       "westbound": "lhs",
-       "number": 53
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "Walthamstow Central",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 1
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "Blackhorse Road",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 2
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "Tottenham Hale",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 3
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "Seven Sisters",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 4
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "Finsbury Park",
-       "northbound": "lhs",
-       "southbound": "rhs",
-       "number": 5
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "Highbury & Islington",
-       "northbound": "rhs",
-       "southbound": "lhs",
-       "number": 6
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "King's Cross St. Pancras",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 7
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "Euston",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 8
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "Warren Street",
-       "northbound": "lhs",
-       "southbound": "lhs",
-       "number": 9
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "Oxford Circus",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 10
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "Green Park",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 11
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "Victoria",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 12
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "Pimlico",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 13
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "Vauxhall",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 14
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "Stockwell",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 15
-   },
-   {
-       "lineName": "Victoria",
-       "stationName": "Brixton",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 16
-   },
-   {
-       "lineName": "Waterloo & City",
-       "stationName": "Waterloo",
-       "northbound": "rhs",
-       "southbound": "rhs",
-       "number": 1
-   },
-   {
-       "lineName": "Waterloo & City",
-       "stationName": "Bank",
-       "number": 2
-   }
-]
+    [
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Harrow & Wealdstone",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 1
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Kenton",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 2
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "South Kenton",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 3
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "North Wembley",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 4
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Wembley Central",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 5
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Stonebridge Park",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 6
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Harlesden",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 7
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Willesden Junction",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 8
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Kensal Green",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 9
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Queen's Park",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 10
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Kilburn Park",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 11
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Maida Vale",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 12
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Warwick Avenue",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 13
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Paddington",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 14
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Edgware Road",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 15
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Marylebone",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 16
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Baker Street",
+            "northbound": "rhs",
+            "southbound": "lhs",
+            "number": 17
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Regent's Park",
+            "northbound": "lhs",
+            "southbound": "rhs",
+            "number": 18
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Oxford Circus",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 19
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Piccadilly Circus",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 20
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Charing Cross",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 21
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Embankment",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 22
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Waterloo",
+            "northbound": "rhs",
+            "southbound": "lhs",
+            "number": 23
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Lambeth North",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 24
+        },
+        {
+            "lineName": "Bakerloo",
+            "stationName": "Elephant & Castle",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 25
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Ealing Broadway",
+            "number": 1
+        },
+        {
+            "lineName": "Central",
+            "stationName": "West Acton",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 2
+        },
+        {
+            "lineName": "Central",
+            "stationName": "West Ruislip",
+            "number": 3
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Ruislip Gardens",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 4
+        },
+        {
+            "lineName": "Central",
+            "stationName": "South Ruislip",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 5
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Northolt",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 6
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Greenford",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 7
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Perivale",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 8
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Hanger Lane",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 9
+        },
+        {
+            "lineName": "Central",
+            "stationName": "North Acton",
+            "eastbound": "lhs",
+            "westbound": "rhs",
+            "number": 10
+        },
+        {
+            "lineName": "Central",
+            "stationName": "East Acton",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 11
+        },
+        {
+            "lineName": "Central",
+            "stationName": "White City",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 12
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Shepherd's Bush",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 13
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Holland Park",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 14
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Notting Hill Gate",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 15
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Queensway",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 16
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Lancaster Gate",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 17
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Marble Arch",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 18
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Bond Street",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 19
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Oxford Circus",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 20
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Tottenham Court Road",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 21
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Holborn",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 22
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Chancery Lane",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 23
+        },
+        {
+            "lineName": "Central",
+            "stationName": "St. Paul's",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 24
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Bank",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 25
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Liverpool Street",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 26
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Bethnal Green",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 27
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Mile End",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 28
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Stratford",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 29
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Leyton",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 30
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Leytonstone",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 31
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Snaresbrook",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 32
+        },
+        {
+            "lineName": "Central",
+            "stationName": "South Woodford",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 33
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Woodford",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 34
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Buckhurst Hill",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 35
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Loughton",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 36
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Debden",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 37
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Theydon Bois",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 38
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Epping",
+            "number": 39
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Wanstead",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 40
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Redbridge",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 41
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Gants Hill",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 42
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Newbury Park",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 43
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Barkingside",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 44
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Fairlop",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 45
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Hainault",
+            "northbound": "lhs",
+            "southbound": "rhs",
+            "number": 46
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Grange Hill",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 47
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Chigwell",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 48
+        },
+        {
+            "lineName": "Central",
+            "stationName": "Roding Valley",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 49
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Edgware Road",
+            "number": 1
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Paddington",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 2
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Bayswater",
+            "number": 3
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Notting Hill Gate",
+            "number": 4
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "High Street Kensington",
+            "number": 5
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Gloucester Road",
+            "number": 6
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "South Kensington",
+            "number": 7
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Sloane Square",
+            "number": 8
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Victoria",
+            "number": 9
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "St. James's Park",
+            "number": 10
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Westminster",
+            "number": 11
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Embankment",
+            "number": 12
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Temple",
+            "number": 13
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Blackfriars",
+            "number": 14
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Mansion House",
+            "number": 15
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Cannon Street",
+            "number": 16
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Monument",
+            "number": 17
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Tower Hill",
+            "number": 18
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Aldgate",
+            "number": 19
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Liverpool Street",
+            "number": 20
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Moorgate",
+            "number": 21
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Barbican",
+            "number": 22
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Farringdon",
+            "number": 23
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "King's Cross St. Pancras",
+            "number": 24
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Euston Square",
+            "number": 25
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Great Portland Street",
+            "number": 26
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Baker Street",
+            "number": 27
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Royal Oak",
+            "number": 28
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Westbourne Park",
+            "number": 29
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Ladbroke Grove",
+            "number": 30
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Latimer Road",
+            "number": 31
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Wood Lane",
+            "number": 32
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Shepherd's Bush Market",
+            "number": 33
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Goldhawk Road",
+            "number": 34
+        },
+        {
+            "lineName": "Circle",
+            "stationName": "Hammersmith",
+            "number": 35
+        },
+        {
+            "lineName": "District",
+            "stationName": "Ealing Broadway",
+            "number": 1
+        },
+        {
+            "lineName": "District",
+            "stationName": "Ealing Common",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 2
+        },
+        {
+            "lineName": "District",
+            "stationName": "Acton Town",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 3
+        },
+        {
+            "lineName": "District",
+            "stationName": "Chiswick Park",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 4
+        },
+        {
+            "lineName": "District",
+            "stationName": "Turnham Green",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 5
+        },
+        {
+            "lineName": "District",
+            "stationName": "Stamford Brook",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 6
+        },
+        {
+            "lineName": "District",
+            "stationName": "Ravenscourt Park",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 7
+        },
+        {
+            "lineName": "District",
+            "stationName": "Hammersmith",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 8
+        },
+        {
+            "lineName": "District",
+            "stationName": "Barons Court",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 9
+        },
+        {
+            "lineName": "District",
+            "stationName": "West Kensington",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 10
+        },
+        {
+            "lineName": "District",
+            "stationName": "Earl's Court",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 11
+        },
+        {
+            "lineName": "District",
+            "stationName": "Gloucester Road",
+            "eastbound": "lhs",
+            "westbound": "rhs",
+            "number": 12
+        },
+        {
+            "lineName": "District",
+            "stationName": "South Kensington",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 13
+        },
+        {
+            "lineName": "District",
+            "stationName": "Sloane Square",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 14
+        },
+        {
+            "lineName": "District",
+            "stationName": "Victoria",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 15
+        },
+        {
+            "lineName": "District",
+            "stationName": "St. James's Park",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 16
+        },
+        {
+            "lineName": "District",
+            "stationName": "Westminster",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 17
+        },
+        {
+            "lineName": "District",
+            "stationName": "Embankment",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 18
+        },
+        {
+            "lineName": "District",
+            "stationName": "Temple",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 19
+        },
+        {
+            "lineName": "District",
+            "stationName": "Blackfriars",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 20
+        },
+        {
+            "lineName": "District",
+            "stationName": "Mansion House",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 21
+        },
+        {
+            "lineName": "District",
+            "stationName": "Cannon Street",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 22
+        },
+        {
+            "lineName": "District",
+            "stationName": "Monument",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 23
+        },
+        {
+            "lineName": "District",
+            "stationName": "Tower Hill",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 24
+        },
+        {
+            "lineName": "District",
+            "stationName": "Aldgate East",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 25
+        },
+        {
+            "lineName": "District",
+            "stationName": "Whitechapel",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 26
+        },
+        {
+            "lineName": "District",
+            "stationName": "Stepney Green",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 27
+        },
+        {
+            "lineName": "District",
+            "stationName": "Mile End",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 28
+        },
+        {
+            "lineName": "District",
+            "stationName": "Bow Road",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 29
+        },
+        {
+            "lineName": "District",
+            "stationName": "Bromley-by-Bow",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 30
+        },
+        {
+            "lineName": "District",
+            "stationName": "West Ham",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 31
+        },
+        {
+            "lineName": "District",
+            "stationName": "Plaistow",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 32
+        },
+        {
+            "lineName": "District",
+            "stationName": "Upton Park",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 33
+        },
+        {
+            "lineName": "District",
+            "stationName": "East Ham",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 34
+        },
+        {
+            "lineName": "District",
+            "stationName": "Barking",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 35
+        },
+        {
+            "lineName": "District",
+            "stationName": "Upney",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 36
+        },
+        {
+            "lineName": "District",
+            "stationName": "Becontree",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 37
+        },
+        {
+            "lineName": "District",
+            "stationName": "Dagenham Heathway",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 38
+        },
+        {
+            "lineName": "District",
+            "stationName": "Dagenham East",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 39
+        },
+        {
+            "lineName": "District",
+            "stationName": "Elm Park",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 40
+        },
+        {
+            "lineName": "District",
+            "stationName": "Hornchurch",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 41
+        },
+        {
+            "lineName": "District",
+            "stationName": "Upminster Bridge",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 42
+        },
+        {
+            "lineName": "District",
+            "stationName": "Upminster",
+            "eastbound": "lhs",
+            "westbound": "rhs",
+            "number": 43
+        },
+        {
+            "lineName": "District",
+            "stationName": "Kensington (Olympia)",
+            "number": 44
+        },
+        {
+            "lineName": "District",
+            "stationName": "Richmond",
+            "number": 45
+        },
+        {
+            "lineName": "District",
+            "stationName": "Kew Gardens",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 46
+        },
+        {
+            "lineName": "District",
+            "stationName": "Gunnersbury",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 47
+        },
+        {
+            "lineName": "District",
+            "stationName": "Wimbledon",
+            "number": 48
+        },
+        {
+            "lineName": "District",
+            "stationName": "Wimbledon Park",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 49
+        },
+        {
+            "lineName": "District",
+            "stationName": "Southfields",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 50
+        },
+        {
+            "lineName": "District",
+            "stationName": "East Putney",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 51
+        },
+        {
+            "lineName": "District",
+            "stationName": "Putney Bridge",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 52
+        },
+        {
+            "lineName": "District",
+            "stationName": "Parsons Green",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 53
+        },
+        {
+            "lineName": "District",
+            "stationName": "Fulham Broadway",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 54
+        },
+        {
+            "lineName": "District",
+            "stationName": "West Brompton",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 55
+        },
+        {
+            "lineName": "District",
+            "stationName": "High Street Kensington",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 56
+        },
+        {
+            "lineName": "District",
+            "stationName": "Notting Hill Gate",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 57
+        },
+        {
+            "lineName": "District",
+            "stationName": "Bayswater",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 58
+        },
+        {
+            "lineName": "District",
+            "stationName": "Paddington",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 59
+        },
+        {
+            "lineName": "District",
+            "stationName": "Edgware Road",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 60
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Tower Gateway",
+            "number": 1
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Shadwell",
+            "number": 2
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Limehouse DLR",
+            "number": 3
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Westferry",
+            "number": 4
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Poplar DLR",
+            "number": 5
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Blackwall DLR",
+            "number": 6
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "East India",
+            "number": 7
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Canning Town",
+            "number": 8
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "West Silvertown",
+            "number": 9
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Pontoon Dock",
+            "number": 10
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "City Airport",
+            "number": 11
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "King George V",
+            "number": 12
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Woolwich Arsenal",
+            "number": 13
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Stratford International",
+            "number": 14
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Stratford",
+            "number": 15
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Stratford High Street",
+            "number": 16
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Abbey Road",
+            "number": 17
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "West Ham",
+            "number": 18
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Star Lane",
+            "number": 19
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Royal Victoria",
+            "number": 20
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Custom House",
+            "number": 21
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Prince Regent",
+            "number": 22
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Royal Albert",
+            "number": 23
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Beckton Park",
+            "number": 24
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Cyprus",
+            "number": 25
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Gallions Reach",
+            "number": 26
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Beckton DLR",
+            "number": 27
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Bank",
+            "number": 28
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "West India Quay",
+            "number": 29
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Canary Wharf",
+            "number": 30
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Heron Quays",
+            "number": 31
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "South Quay",
+            "number": 32
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Crossharbour",
+            "number": 33
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Mudchute",
+            "number": 34
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Island Gardens",
+            "number": 35
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Cutty Sark",
+            "number": 36
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Greenwich",
+            "number": 37
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Deptford Bridge",
+            "number": 38
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Elverson Road",
+            "number": 39
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Lewisham",
+            "number": 40
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "All Saints",
+            "number": 41
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Langdon Park",
+            "number": 42
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Devons Road",
+            "number": 43
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Bow Church",
+            "number": 44
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Pudding Mill Lane",
+            "number": 45
+        },
+        {
+            "lineName": "DLR",
+            "stationName": "Beckton GER",
+            "number": 46
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Highbury & Islington",
+            "number": 1
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Canonbury",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 2
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Dalston Junction",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 3
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Haggerston",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 4
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Hoxton",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 5
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Shoreditch High Street",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 6
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Whitechapel",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 7
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Shadwell",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 8
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Wapping",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 9
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Rotherhithe",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 10
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Canada Water",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 11
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Surrey Quays",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 12
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "New Cross Gate",
+            "northbound": "lhs",
+            "southbound": "rhs",
+            "number": 13
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Brockley",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 14
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Honor Oak Park",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 15
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Forest Hill",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 16
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Sydenham",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 17
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Penge West",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 18
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Anerley",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 19
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Norwood Junction",
+            "northbound": "rhs",
+            "southbound": "lhs",
+            "number": 20
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "West Croydon",
+            "number": 21
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "New Cross",
+            "number": 22
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Crystal Palace",
+            "number": 23
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Queens Road Peckham",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 24
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Peckham Rye",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 25
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Denmark Hill",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 26
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Clapham High Street",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 27
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Wandsworth Road",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 28
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Clapham Junction",
+            "number": 29
+        },
+        {
+            "lineName": "Overground",
+            "stationName": "Battersea Park",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 30
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Hammersmith",
+            "number": 1
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Goldhawk Road",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 2
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Shepherd's Bush Market",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 3
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Wood Lane",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 4
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Latimer Road",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 5
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Ladbroke Grove",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 6
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Westbourne Park",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 7
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Royal Oak",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 8
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Paddington",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 9
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Edgware Road",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 10
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Baker Street",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 11
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Great Portland Street",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 12
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Euston Square",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 13
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "King's Cross St. Pancras",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 14
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Farringdon",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 15
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Barbican",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 16
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Moorgate",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 17
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Liverpool Street",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 18
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Aldgate East",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 19
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Whitechapel",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 20
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Stepney Green",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 21
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Mile End",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 22
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Bow Road",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 23
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Bromley-by-Bow",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 24
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "West Ham",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 25
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Plaistow",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 26
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Upton Park",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 27
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "East Ham",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 28
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Barking",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 29
+        },
+        {
+            "lineName": "HammersmithAndCity",
+            "stationName": "Shepherd's Bush",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 30
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Stanmore",
+            "number": 1
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Canons Park",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 2
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Queensbury",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 3
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Kingsbury",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 4
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Wembley Park",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 5
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Neasden",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 6
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Dollis Hill",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 7
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Willesden Green",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 8
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Kilburn",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 9
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "West Hampstead",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 10
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Finchley Road",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 11
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Swiss Cottage",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 12
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "St. John's Wood",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 13
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Baker Street",
+            "northbound": "lhs",
+            "southbound": "rhs",
+            "number": 14
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Bond Street",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 15
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Green Park",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 16
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Westminster",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 17
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Waterloo",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 18
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Southwark",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 19
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "London Bridge",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 20
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Bermondsey",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 21
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Canada Water",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 22
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Canary Wharf",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 23
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "North Greenwich",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 24
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Canning Town",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 25
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "West Ham",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 26
+        },
+        {
+            "lineName": "Jubilee",
+            "stationName": "Stratford",
+            "number": 27
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Amersham",
+            "northbound": "rhs",
+            "southbound": "lhs",
+            "number": 1
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Chalfont & Latimer",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 2
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Chorleywood",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 3
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Rickmansworth",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 4
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Moor Park",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 5
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Northwood",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 6
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Northwood Hills",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 7
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Pinner",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 8
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "North Harrow",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 9
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Harrow-on-the-Hill",
+            "northbound": "rhs",
+            "southbound": "lhs",
+            "number": 10
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Northwick Park",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 11
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Preston Road",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 12
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Wembley Park",
+            "northbound": "rhs",
+            "southbound": "lhs",
+            "number": 13
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Finchley Road",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 14
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Baker Street",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 15
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Great Portland Street",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 16
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Euston Square",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 17
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "King's Cross St. Pancras",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 18
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Farringdon",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 19
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Barbican",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 20
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Moorgate",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 21
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Liverpool Street",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 22
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Aldgate",
+            "number": 23
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Uxbridge",
+            "number": 24
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Hillingdon",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 25
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Ickenham",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 26
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Ruislip",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 27
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Ruislip Manor",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 28
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Eastcote",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 29
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Rayners Lane",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 30
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "West Harrow",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 31
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Watford",
+            "number": 32
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Croxley",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 33
+        },
+        {
+            "lineName": "Metropolitan",
+            "stationName": "Chesham",
+            "number": 34
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Edgware",
+            "number": 1
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Burnt Oak",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 2
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Colindale",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 3
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Hendon Central",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 4
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Brent Cross",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 5
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Golders Green",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 6
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Hampstead",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 7
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Belsize Park",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 8
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Chalk Farm",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 9
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Camden Town",
+            "northbound": "rhs",
+            "southbound": "lhs",
+            "number": 10
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Mornington Crescent",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 11
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Euston",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 12
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Warren Street",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 13
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Goodge Street",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 14
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Tottenham Court Road",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 15
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Leicester Square",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 16
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Charing Cross",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 17
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Embankment",
+            "northbound": "lhs",
+            "southbound": "rhs",
+            "number": 18
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Waterloo",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 19
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Kennington",
+            "northbound": "rhs",
+            "southbound": "lhs",
+            "number": 20
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Oval",
+            "northbound": "lhs",
+            "southbound": "rhs",
+            "number": 21
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Stockwell",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 22
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Clapham North",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 23
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Clapham Common",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 24
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Clapham South",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 25
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Balham",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 26
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Tooting Bec",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 27
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Tooting Broadway",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 28
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Colliers Wood",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 29
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "South Wimbledon",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 30
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Morden",
+            "northbound": "rhs",
+            "southbound": "lhs",
+            "number": 31
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "High Barnet",
+            "number": 32
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Totteridge & Whetstone",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 33
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Woodside Park",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 34
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "West Finchley",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 35
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Finchley Central",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 36
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "East Finchley",
+            "northbound": "rhs",
+            "southbound": "lhs",
+            "number": 37
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Highgate",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 38
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Archway",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 39
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Tufnell Park",
+            "northbound": "lhs",
+            "southbound": "rhs",
+            "number": 40
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Kentish Town",
+            "northbound": "rhs",
+            "southbound": "lhs",
+            "number": 41
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "King's Cross St. Pancras",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 42
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Angel",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 43
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Old Street",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 44
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Moorgate",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 45
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Bank",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 46
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "London Bridge",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 47
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Borough",
+            "northbound": "lhs",
+            "southbound": "rhs",
+            "number": 48
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Elephant & Castle",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 49
+        },
+        {
+            "lineName": "Northern",
+            "stationName": "Mill Hill East",
+            "number": 50
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Heathrow Terminal 5",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 1
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Heathrow Terminals 1, 2, 3",
+            "number": 2
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Hatton Cross",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 3
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Hounslow West",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 4
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Hounslow Central",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 5
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Hounslow East",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 6
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Osterley",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 7
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Boston Manor",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 8
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Northfields",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 9
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "South Ealing",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 10
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Acton Town",
+            "eastbound": "rhs",
+            "westbound": "lhs",
+            "number": 11
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Turnham Green",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 12
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Hammersmith",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 13
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Barons Court",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 14
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Earl's Court",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 15
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Gloucester Road",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 16
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "South Kensington",
+            "eastbound": "lhs",
+            "westbound": "rhs",
+            "number": 17
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Knightsbridge",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 18
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Hyde Park Corner",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 19
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Green Park",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 20
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Piccadilly Circus",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 21
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Leicester Square",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 22
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Covent Garden",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 23
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Holborn",
+            "eastbound": "lhs",
+            "westbound": "rhs",
+            "number": 24
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Russell Square",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 25
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "King's Cross St. Pancras",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 26
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Caledonian Road",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 27
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Holloway Road",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 28
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Arsenal",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 29
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Finsbury Park",
+            "eastbound": "lhs",
+            "westbound": "rhs",
+            "number": 30
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Manor House",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 31
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Turnpike Lane",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 32
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Wood Green",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 33
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Bounds Green",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 34
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Arnos Grove",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 35
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Southgate",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 36
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Oakwood",
+            "eastbound": "lhs",
+            "westbound": "lhs",
+            "number": 37
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Cockfosters",
+            "number": 38
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Heathrow Terminal 4",
+            "number": 39
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Uxbridge",
+            "number": 40
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Hillingdon",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 41
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Ickenham",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 42
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Ruislip",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 43
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Ruislip Manor",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 44
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Eastcote",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 45
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Rayners Lane",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 46
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "South Harrow",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 47
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Sudbury Hill",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 48
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Sudbury Town",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 49
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Alperton",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 50
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Park Royal",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 51
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "North Ealing",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 52
+        },
+        {
+            "lineName": "Piccadilly",
+            "stationName": "Ealing Common",
+            "eastbound": "rhs",
+            "westbound": "rhs",
+            "number": 53
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "Walthamstow Central",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 1
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "Blackhorse Road",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 2
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "Tottenham Hale",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 3
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "Seven Sisters",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 4
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "Finsbury Park",
+            "northbound": "lhs",
+            "southbound": "rhs",
+            "number": 5
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "Highbury & Islington",
+            "northbound": "rhs",
+            "southbound": "lhs",
+            "number": 6
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "King's Cross St. Pancras",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 7
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "Euston",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 8
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "Warren Street",
+            "northbound": "lhs",
+            "southbound": "lhs",
+            "number": 9
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "Oxford Circus",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 10
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "Green Park",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 11
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "Victoria",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 12
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "Pimlico",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 13
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "Vauxhall",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 14
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "Stockwell",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 15
+        },
+        {
+            "lineName": "Victoria",
+            "stationName": "Brixton",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 16
+        },
+        {
+            "lineName": "Waterloo & City",
+            "stationName": "Waterloo",
+            "northbound": "rhs",
+            "southbound": "rhs",
+            "number": 1
+        },
+        {
+            "lineName": "Waterloo & City",
+            "stationName": "Bank",
+            "number": 2
+        }
+    ]
 
 // {
 //    "lines": {
@@ -8451,4 +8451,5 @@ var data =
 //       }
 //    }
 // }
-export {data}
+
+export { data }
