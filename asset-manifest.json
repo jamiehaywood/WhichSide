@@ -1,16 +1,14 @@
 {
-  "files": {
-    "main.css": "/WhichSide/static/css/main.0314a182.chunk.css",
-    "main.js": "/WhichSide/static/js/main.9bd0b95c.chunk.js",
-    "main.js.map": "/WhichSide/static/js/main.9bd0b95c.chunk.js.map",
-    "runtime~main.js": "/WhichSide/static/js/runtime~main.7e554950.js",
-    "runtime~main.js.map": "/WhichSide/static/js/runtime~main.7e554950.js.map",
-    "static/js/2.4f017e5b.chunk.js": "/WhichSide/static/js/2.4f017e5b.chunk.js",
-    "static/js/2.4f017e5b.chunk.js.map": "/WhichSide/static/js/2.4f017e5b.chunk.js.map",
-    "index.html": "/WhichSide/index.html",
-    "precache-manifest.d5bdf004e32b888912825f9cd26e3c0f.js": "/WhichSide/precache-manifest.d5bdf004e32b888912825f9cd26e3c0f.js",
-    "service-worker.js": "/WhichSide/service-worker.js",
-    "static/css/main.0314a182.chunk.css.map": "/WhichSide/static/css/main.0314a182.chunk.css.map",
-    "static/media/App.scss": "/WhichSide/static/media/Johnston100W03-Regular.fd0a76c7.woff2"
-  }
+  "main.css": "/WhichSide/static/css/main.efb7338d.chunk.css",
+  "main.js": "/WhichSide/static/js/main.b4c4666e.chunk.js",
+  "main.js.map": "/WhichSide/static/js/main.b4c4666e.chunk.js.map",
+  "runtime~main.js": "/WhichSide/static/js/runtime~main.7e554950.js",
+  "runtime~main.js.map": "/WhichSide/static/js/runtime~main.7e554950.js.map",
+  "static/js/2.06eb647d.chunk.js": "/WhichSide/static/js/2.06eb647d.chunk.js",
+  "static/js/2.06eb647d.chunk.js.map": "/WhichSide/static/js/2.06eb647d.chunk.js.map",
+  "index.html": "/WhichSide/index.html",
+  "precache-manifest.16541f0ef4169fd9d79db0ae7fcf0a59.js": "/WhichSide/precache-manifest.16541f0ef4169fd9d79db0ae7fcf0a59.js",
+  "service-worker.js": "/WhichSide/service-worker.js",
+  "static/css/main.efb7338d.chunk.css.map": "/WhichSide/static/css/main.efb7338d.chunk.css.map",
+  "static/media/App.scss": "/WhichSide/static/media/Johnston100W03-Regular.fd0a76c7.woff2"
 }
