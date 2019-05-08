@@ -8,13 +8,13 @@
 
 ## Usage
 
-0. Navigate to `www.jamiehaywood.github.io/WhichSide`
+1. Navigate to `www.jamiehaywood.github.io/WhichSide`
 
-1. Type in your `origin` station, your `destination` station and your `line`. Ensure your spelling is correct.
+2. Type in your `origin` station, your `destination` station and your `line`. Ensure your spelling is correct.
 
-2. Press the `Check!` button
+3. Press the `Check!` button
 
-3. The door opening side will illuminate. Note: The opening side is based the direction of travel.
+4. The door opening side will illuminate. Note: The opening side is based the direction of travel.
 
 ## Adding the Progressive Web App to your iOS home screen
 
