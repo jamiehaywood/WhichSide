@@ -3,7 +3,7 @@
     <img src="https://github.com/jamiehaywood/WhichSide/blob/master/src/images/readmeicon.png?raw=true" alt="Image" height=200px />
 </p>
 
-###This is a progressive web app build in React that works out your direction from `Origin` and `Destination` and tells you which side the tube opens at your destination.
+### This is a progressive web app build in React that works out your direction from `Origin` and `Destination` and tells you which side the tube opens at your destination.
 
 
 ## Usage
