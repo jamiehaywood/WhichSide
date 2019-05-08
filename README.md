@@ -26,6 +26,6 @@
 
 4. Press `Add` in the top right hand corner
 
-5. Voila, you have the Hearts Points Tracker added to your homescreen.
+5. Voila, you have the Which Side app added to your homescreen.
 
 <b>Please note:</b> This app does not have any affiliation with Transport for London and does not guarantee the reliability of the data 
