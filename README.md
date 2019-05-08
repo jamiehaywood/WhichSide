@@ -7,7 +7,7 @@
 
 
 ## Usage
-#### Adding a user
+
 0. Navigate to `www.jamiehaywood.github.io/WhichSide`
 
 1. Type in your `origin` station, your `destination` station and your `line`. Ensure your spelling is correct.
