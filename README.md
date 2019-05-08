@@ -1,29 +1,24 @@
-# <img align="center" width=50px src="https://github.com/jamiehaywood/WhichSide/blob/master/src/components/images/roundel.png?raw=true"> <span color=#0019a8>WHICH</span><span>
+# <img align="center" width=100% src="https://github.com/jamiehaywood/WhichSide/blob/master/src/images/readmetitle.png?raw=true">
+<p align="center">
+    <img src="https://github.com/jamiehaywood/WhichSide/blob/master/src/images/readmeicon.png?raw=true" alt="Image" height=200px />
+</p>
 
-This application has been built for tracking player points in the card game [Hearts](https://en.wikipedia.org/wiki/Hearts_(card_game)). 
+###This is a progressive web app build in React that works out your direction from `Origin` and `Destination` and tells you which side the tube opens at your destination.
 
-Although traditionally played with 4 people, this application can be used to track as many or as few players as you wish. 
-
-It's optimized for 5 players on an iPhone 6/7/8.
 
 ## Usage
 #### Adding a user
-1. To add a user, press &nbsp; <img vertical-align="middle" src="https://github.com/jamiehaywood/HeartsPointsTracker/blob/master/src/Atoms/Images/plus.png?raw=true" height="20px"> &nbsp;
+0. Navigate to `www.jamiehaywood.github.io/WhichSide`
 
-2. Enter a player's name and press ok.
+1. Type in your `origin` station, your `destination` station and your `line`. Ensure your spelling is correct.
 
-3. Repeat for the desired number of players.
+2. Press the `Check!` button
 
-4. On mobile devices, to add points, tap the input box in the middle of the player, type the number, and press `Enter` or `Return`
-
-5. Make sure the number is correct, as you will not be able to undo! This feature is in the pipeline.
-
-#### Resetting the users
-Press the reset button below the&nbsp; <img vertical-align="middle" src="https://github.com/jamiehaywood/HeartsPointsTracker/blob/master/src/Atoms/Images/plus.png?raw=true" height="20px"> &nbsp;button.
+3. The door opening side will illuminate. Note: The opening side is based the direction of travel.
 
 ## Adding the Progressive Web App to your iOS home screen
 
-1. Navigate to `www.jamiehaywood.github.io/HeartsPointsTracker`
+1. Navigate to `www.jamiehaywood.github.io/WhichSide`
 
 2. Hit the share &nbsp; <img vertical-align="middle" src="https://developer.apple.com/design/human-interface-guidelines/ios/images/icons/navigation_bar_toobar_icons/Navigation_Action.png" height="17px">&nbsp; &nbsp;icon
 
@@ -32,3 +27,5 @@ Press the reset button below the&nbsp; <img vertical-align="middle" src="https:/
 4. Press `Add` in the top right hand corner
 
 5. Voila, you have the Hearts Points Tracker added to your homescreen.
+
+<b>Please note:</b> This app does not have any affiliation with Transport for London and does not guarantee the reliability of the data 
