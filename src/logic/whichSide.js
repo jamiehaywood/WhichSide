@@ -1,25 +1,24 @@
 import { data } from '../data/data.js'
 
-export function whichSide(originStation, destinationStation, inputLine) {
-    let stationObjects = stationObjectsRetriever(originStation, destinationStation, inputLine, data)
+export function whichSide(origin, dest, input) {
     let direction = directionChecker(stationObjects)
     let side = sideChecker(stationObjects, direction)
     return side;
 }
 
-export function stationObjectsRetriever(originStation, destinationStation, inputLine, data) {
+export function stationObjectsRetriever(origin, dest, input, data) {
     let stationObjects = [];
     // .filter? https://alligator.io/js/filter-array-method/
     for (const stationName in data) {
         if (data.hasOwnProperty(stationName)) {
             const element = data[stationName];
-            if (element.stationName === originStation && element.lineName === inputLine) {
-                let originStationObject = element
-                stationObjects.splice(0, 0, originStationObject)
+            if (element.stationName === origin && element.lineName === input) {
+                let originObject = element
+                stationObjects.splice(0, 0, originObject)
             }
-            if (element.stationName === destinationStation && element.lineName === inputLine) {
-                let destinationStationObject = element
-                stationObjects.splice(1, 0, destinationStationObject)
+            if (element.stationName === dest && element.lineName === input) {
+                let destObject = element
+                stationObjects.splice(1, 0, destObject)
             }
         }
     }
