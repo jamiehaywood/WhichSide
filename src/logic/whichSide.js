@@ -8,7 +8,7 @@ export function whichSide(origin, dest, input) {
 
 export function stationObjectsRetriever(origin, dest, input, data) {
     let stationObjects = [];
-    // .filter? https://alligator.io/js/filter-array-method/
+    //TO DO: .filter? https://alligator.io/js/filter-array-method/
     for (const stationName in data) {
         if (data.hasOwnProperty(stationName)) {
             const element = data[stationName];
