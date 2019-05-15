@@ -1,32 +1,18 @@
 import { data } from '../data/data'
 
-export function validate(originStation, destinationStation, inputLine) {
-    var callback;
-
-    isNotEmptyOrNullCheck(originStation, destinationStation, inputLine)
-
-    function isNotEmptyOrNullCheck(originStation, destinationStation, inputLine){
-    if (originStation && destinationStation && inputLine) {
-        stationNameCheck(data)
-    }
-    else {
-        alert("Please fill in all the fields")
-        }
+export function validate(origin, dest, input) {
+    return ((isNotEmptyOrNullCheck(origin, dest, input)) &&
+            (stationNameCheck(data, origin, dest, input)))
     }
 
+export function isNotEmptyOrNullCheck(origin, dest, input) {
+    return (origin && dest && input) ? true : false
+}
 
-    function stationNameCheck(data) {
-        let stationNames = data.map(a => a.stationName)
-        let lineNames = data.map(b => b.lineName)
-
-        if (stationNames.includes(originStation) &&
-            stationNames.includes(destinationStation) &&
-            lineNames.includes(inputLine)) {
-            callback = true;
-            }
-        else {
-            alert("Please check your station and line names")
-        }
-    }
-    return callback
+export function stationNameCheck(data, origin, dest, input) {
+    let stationNames = data.map(a => a.stationName)
+    let lineNames = data.map(b => b.lineName)
+    return (stationNames.includes(origin) &&
+            stationNames.includes(dest) &&
+            lineNames.includes(input))
 }
