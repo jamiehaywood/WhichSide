@@ -1,9 +1,9 @@
 import { data } from '../data/data.js'
 
 export function whichSide(origin, dest, input) {
+    let stationObjects = stationObjectsRetriever(origin, dest, input, data)
     let direction = directionChecker(stationObjects)
-    let side = sideChecker(stationObjects, direction)
-    return side;
+    return sideChecker(stationObjects, direction)
 }
 
 export function stationObjectsRetriever(origin, dest, input, data) {
