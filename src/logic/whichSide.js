@@ -27,27 +27,15 @@ export function stationObjectsRetriever(originStation, destinationStation, input
 }
 
 export function directionChecker(stationObjects) {
-    var originStation = stationObjects[0]
-    var destinationStation = stationObjects[1]
-    var direction; // take out variable and return direction in ternary
+    var origin = stationObjects[0]
+    var dest = stationObjects[1]
 
-    if (destinationStation.hasOwnProperty('northbound' || 'southbound')) {
-        if (originStation.number > destinationStation.number) {
-            direction = "northbound"
+    if (dest.hasOwnProperty('northbound' || 'southbound')) {
+        return (origin.number > dest.number ? "northbound" : "southbound")
         }
-        else {
-            direction = "southbound"
-        }
+    else if (dest.hasOwnProperty('eastbound' || 'westbound')) {
+        return (origin.number > dest.number ? "westbound" : "eastbound") 
     }
-    else if (destinationStation.hasOwnProperty('eastbound' || 'westbound')) {
-        if (originStation.number > destinationStation.number) {
-            direction = "westbound"
-        }
-        else {
-            direction = "eastbound"
-        }
-    }
-    return direction
 }
 
 export function sideChecker(stationObjects, direction) {
