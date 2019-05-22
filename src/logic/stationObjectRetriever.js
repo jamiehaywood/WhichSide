@@ -14,5 +14,5 @@ export function stationObjectsRetriever(origin, dest, input, data) {
             }
         }
     }
-    return stationObjects
+    return stationObjects.length === 2 ? stationObjects : false
 }
