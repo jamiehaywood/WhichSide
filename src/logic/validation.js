@@ -16,3 +16,5 @@ export function stationNameCheck(data, origin, dest, input) {
             stationNames.includes(dest) &&
             lineNames.includes(input))
 }
+
+// TODO: Add a validation to see if the station is on the same line
