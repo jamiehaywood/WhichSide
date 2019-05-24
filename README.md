@@ -5,6 +5,7 @@
 
 ### This is a progressive web app build in React that works out your direction from `Origin` and `Destination` and tells you which side the tube opens at your destination.
 
+Please note: There is no guarantee that this data is correct. It was obtained from [here](https://ukfree.tv/styles/images/2018/whichsideout.json). 
 
 ## Usage
 
